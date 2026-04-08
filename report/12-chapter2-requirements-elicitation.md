@@ -13,7 +13,7 @@
   **Primer Segmento:** A continuación, se presentan las preguntas dirigidas al segmento de empresas mineras, conformado por profesionales y organizaciones responsables de la extracción, transporte y gestión de minerales. Este segmento se encarga de la obtención y movilización de los recursos, enfrentando desafíos relacionados con el control y la trazabilidad.
 
   - **Preguntas principales:**
-  1.	¿Cómo registran actualmente el traslado de minerales?
+1.	¿Cómo registran actualmente el traslado de minerales?
 2.	¿Existen problemas de pérdida o falta de control?
 3.	¿Cuál es tu principal objetivo en la gestión de materiales o minerales?
 4.	¿Qué herramientas usan para monitoreo?
@@ -33,7 +33,7 @@
 6.	¿Qué rol desempeñas dentro del sector minero?
 7.	¿Qué es lo que más te frustra del proceso actual de control o traslado de minerales?
 
- **Segundo Segmento:** A continuación, se presentan las preguntas dirigidas al segmento de joyerías, integrado por personas que trabajan en la fabricación y comercialización de productos elaborados con minerales. Estas empresas pueden operar tanto con materiales provenientes de proveedores como con insumos proporcionados directamente por los clientes. 
+ **Segundo Segmento:** A continuación, se presentan las preguntas dirigidas al segmento de joyerías, integrado por personas que trabajan en la fabricación y comercialización de productos elaborados con minerales. Estas empresas pueden operar tanto con materiales provenientes de proveedores como con insumos proporcionados directamente por los clientes.
 
   - **Preguntas principales:**
 1.	¿Cómo verificas la autenticidad de las joyas que vendes?
@@ -77,8 +77,135 @@
 5.	¿Qué opinas de productos con certificaciones como “cruelty-free” o “eco-friendly”?
 6.	¿Qué buscas principalmente al comprar una joya o producto (ej. calidad, estatus, significado, inversión)?
 
+<div style="page-break-after: always"></div>
 
 ### 2.2.2. Registro de entrevistas
+
+| Segmento: Empresas Mineras | Entrevista #1 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Empresas Mineras | Entrevista #2 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Empresas Mineras | Entrevista #3 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Joyerías | Entrevista #1 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Joyerías | Entrevista #2 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Joyerías | Entrevista #3 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Usuarios consumidor | Entrevista #1 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Usuarios consumidor | Entrevista #2 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
+
+| Segmento: Usuarios consumidor | Entrevista #3 |
+| --- | --- |
+| Nombres y Apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Timming inicio | |
+| duración | |
+| URL | |
+| Screenshot | |
+| Resumen | |
+
+<div style="page-break-after: always"></div>
 
 ### 2.2.3. Análisis de entrevistas
 
