@@ -336,3 +336,19 @@ A continuación, se realiza un análisis competitivo para identificar las fortal
 
   </tbody>
 </table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para diferenciar nuestra solución en el mercado de trazabilidad minera, consideramos las siguientes estrategias:
+
+-Integración de Tecnologías Emergentes: Incorporar tecnologías como IoT, Inteligencia Artificial y códigos QR para ofrecer una trazabilidad completa y en tiempo real desde la extracción hasta el consumidor final, superando a competidores que operan con soluciones parciales o no integradas.
+
+-Enfoque B2B2C: Desarrollar una solución que no solo atienda a empresas, sino que también incluya al consumidor final, permitiéndole verificar el origen y autenticidad del producto, generando así mayor confianza y valor diferencial frente a plataformas exclusivamente B2B.
+
+-Modelo de Precios Escalable y Accesible: Implementar un esquema SaaS con planes flexibles según el tamaño de la empresa o volumen de operación, facilitando la adopción por parte de pequeñas y medianas empresas frente a soluciones costosas del mercado.
+
+-Posicionamiento en Sostenibilidad y Minería Ética: Enfocar la propuesta de valor en la transparencia, responsabilidad social y cumplimiento de estándares ESG, aprovechando la creciente demanda de productos con origen certificado y prácticas sostenibles.
+
+-Interfaz Intuitiva y Adaptada al Usuario: Diseñar una plataforma con una experiencia de usuario simple y accesible tanto para operarios en campo como para usuarios empresariales, reduciendo la curva de aprendizaje y la resistencia al cambio tecnológico.
+
+-Alianzas Estratégicas en Latinoamérica: Establecer colaboraciones con gobiernos, cooperativas mineras y empresas del sector para facilitar la adopción de la solución, permitiendo una expansión más rápida y adaptada a las condiciones del mercado regional.
