@@ -211,3 +211,128 @@ Abril, 2026
 - [5.4. Video About-the-Product](./report/15-chapter5-product-implementation.md#54-video-about-the-product)
 
 <div style="page-break-after: always"></div>
+
+# 2. Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1 Competidores
+
+### 2.1.1. Análisis competitivo
+
+A continuación, se realiza un análisis competitivo para identificar las fortalezas, debilidades, oportunidades y amenazas de la solución propuesta frente a plataformas existentes en el mercado de trazabilidad, logística e IoT aplicado a supply chain y minería. Este análisis permitirá validar la propuesta de valor, detectar espacios de diferenciación y definir estrategias sostenibles de posicionamiento.
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="7"><b>Competitive Analysis Landscape</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" align="center">¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="5" align="center">
+        Identificar las fortalezas, debilidades, oportunidades y amenazas de nuestra plataforma de trazabilidad de minerales basada en IoT + Web + IA frente a competidores del sector, con el fin de validar nuestra propuesta de valor, optimizar el posicionamiento y construir una ventaja competitiva sostenible en el mercado.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">PERFIL</td>
+      <td align="center"><b>MineHub</b></td>
+      <td align="center"><b>Everledger</b></td>
+      <td align="center"><b>IBM Blockchain</b></td>
+      <td align="center"><b>SAP Logistics</b></td>
+      <td align="center"><b>Nuestra solución</b></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Perfil</td>
+      <td>Overview</td>
+      <td>Plataforma blockchain para trazabilidad en supply chain minera.</td>
+      <td>Plataforma de trazabilidad para activos de alto valor basada en blockchain.</td>
+      <td>Soluciones empresariales de trazabilidad con blockchain.</td>
+      <td>Software de gestión logística empresarial integrado.</td>
+      <td>Plataforma Web para trazabilidad minera end-to-end.</td>
+    </tr>
+    <tr>
+      <td>Ventaja Competitiva</td>
+      <td>Transparencia en transacciones mineras.</td>
+      <td>Alta confianza en certificación de autenticidad.</td>
+      <td>Infraestructura robusta y escalable.</td>
+      <td>Integración con sistemas ERP empresariales.</td>
+      <td>Integración IoT y QR para trazabilidad en tiempo real con enfoque social.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td>Mercado objetivo</td>
+      <td>Empresas mineras globales.</td>
+      <td>Industria de lujo y metales preciosos.</td>
+      <td>Grandes corporaciones.</td>
+      <td>Empresas logísticas y manufactureras.</td>
+      <td>Mineras, joyerías, empresas y consumidores finales.</td>
+    </tr>
+    <tr>
+      <td>Estrategias de Marketing</td>
+      <td>Alianzas industriales.</td>
+      <td>Branding en sostenibilidad.</td>
+      <td>Ventas enterprise B2B.</td>
+      <td>Canales corporativos.</td>
+      <td>Educación en consumo responsable, pilotos y alianzas.</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Perfil del Producto</td>
+      <td>Productos & Servicios</td>
+      <td>Plataforma blockchain para minería.</td>
+      <td>Certificación digital de activos.</td>
+      <td>Soluciones blockchain + cloud.</td>
+      <td>Software logístico integrado.</td>
+      <td>Tracking IoT, dashboards web, validación con IA y QR.</td>
+    </tr>
+    <tr>
+      <td>Precios & Costos</td>
+      <td>No público.</td>
+      <td>Licencias empresariales.</td>
+      <td>Alto costo enterprise.</td>
+      <td>Licencias y suscripción.</td>
+      <td>Modelo SaaS escalable.</td>
+    </tr>
+    <tr>
+      <td>Canales de Distribución</td>
+      <td>Web, API.</td>
+      <td>Web.</td>
+      <td>Cloud, API.</td>
+      <td>Software empresarial.</td>
+      <td>Web.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Análisis SWOT</td>
+      <td>Fortalezas</td>
+      <td>Especialización en minería, transparencia en transacciones.</td>
+      <td>Fuerte posicionamiento en autenticidad y certificación.</td>
+      <td>Alta escalabilidad, respaldo corporativo.</td>
+      <td>Integración empresarial robusta.</td>
+      <td>Integración IoT + IA + Web, trazabilidad completa, enfoque en triple impacto.</td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>Dependencia de blockchain, poca integración IoT.</td>
+      <td>Limitado a nichos específicos.</td>
+      <td>Costoso y complejo de implementar.</td>
+      <td>No especializado en trazabilidad ética.</td>
+      <td>Requiere infraestructura IoT y capacitación inicial.</td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>Crecimiento de regulación minera.</td>
+      <td>Expansión a nuevos mercados.</td>
+      <td>Expansión en grandes empresas.</td>
+      <td>Integración con nuevas tecnologías.</td>
+      <td>Demanda de consumo responsable y expansión en LATAM.</td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>Soluciones más integradas tecnológicamente.</td>
+      <td>Competidores más completos.</td>
+      <td>Startups más ágiles.</td>
+      <td>Soluciones nicho innovadoras.</td>
+      <td>Resistencia al cambio, limitaciones tecnológicas, competencia con mayor capital.</td>
+    </tr>
+
+  </tbody>
+</table>
