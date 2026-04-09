@@ -88,7 +88,7 @@
 | Distrito | |
 | Ocupación | |
 | Timming inicio | |
-| duración | |
+| Duración | |
 | URL | |
 | Screenshot | |
 | Resumen | |
@@ -102,7 +102,7 @@
 | Distrito | |
 | Ocupación | |
 | Timming inicio | |
-| duración | |
+| Duración | |
 | URL | |
 | Screenshot | |
 | Resumen | |
@@ -116,7 +116,7 @@
 | Distrito | |
 | Ocupación | |
 | Timming inicio | |
-| duración | |
+| Duración | |
 | URL | |
 | Screenshot | |
 | Resumen | |
@@ -130,7 +130,7 @@
 | Distrito | Surquillo |
 | Ocupación | Secretaria de Joyería |
 | Timming inicio | |
-| duración | 4 minutos y 50 segundos|
+| Duración | 4 minutos y 50 segundos|
 | URL | |
 | Screenshot | ![Screenshot Yesiliany](../assets/img/chapter-ii/interview-Yesiliany.png)|
 | Resumen | La entrevistada es una joven de 21 años que reside en Surquillo, ella trabaja como secretaria en una joyería desempeñando funciones operativas dentro del negocio. La gestión de inventarios se realiza de manera manual, ellos no realizan digitalización para los procesos internos del negocio. Respecto al control de calidad, la empresa utiliza tanto métodos tradicionales como tecnológicos para verificar la autenticidad del oro, como la prueba del ácido nítrico y máquinas de medición de quilataje. Sin embargo, uno de los principales desafíos identificados es el trabajo con materiales proporcionados por los clientes, puesto que si el oro no posee la calidad adecuada, el proceso de refinamiento implica una merma significativa pudiendo perderse hasta 1.5 gramos por cada 5 gramos iniciales. Respecto a la trazabilidad, la joyería mantiene relaciones de confianza con proveedores desde hace más de 10 años lo que garantiza la autenticidad del material adquirido. Por otro lado, los clientes valoran altamente el origen de las joyas y suelen exigir certificaciones especialmente en piezas con piedras preciosas. Finalmente, ella menciona que la confianza del cliente se construye a través de la transparencia, informando sobre la calidad real de las piezas y sus posibles riesgos. En síntesis, se observa un entorno de trabajo tradicional, enfocado en la experiencia y la calidad con oportunidades de mejora en la incorporación de herramientas digitales para la gestión. |
@@ -144,7 +144,7 @@
 | Distrito | |
 | Ocupación | |
 | Timming inicio | |
-| duración | |
+| Duración | |
 | URL | |
 | Screenshot | |
 | Resumen | |
@@ -158,7 +158,7 @@
 | Distrito | |
 | Ocupación | |
 | Timming inicio | |
-| duración | |
+| Duración | |
 | URL | |
 | Screenshot | |
 | Resumen | |
@@ -167,15 +167,15 @@
 
 | Segmento: Usuario consumidor | Entrevista #1 |
 | --- | --- |
-| Nombres y Apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
+| Nombres y Apellidos | Carla Gallardo Morales |
+| Edad | 19 |
+| Distrito | La Molina |
+| Ocupación | Estudiante universitaria |
 | Timming inicio | |
-| duración | |
+| Duración | 4 minutos y 44 segundos |
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Carla](../assets/img/chapter-ii/interview-Carla.png) |
+| Resumen | Carla Gallardo es una joven de 19 años que reside en La Molina, soltera y estudiante universitaria. Ella usa principalmente el celular y la computadora para sus actividades académicas, lo que evidencia un perfil digital activo. Su frecuencia de compra de joyas es baja, adquiriendo principalmente accesorios de acero y comprando oro o plata  cada tres años aproximadamente. Al comprar una joya, sus principales criterios son la autenticidad del material, el diseño, la marca y el precio, muestra una alta preocupación por la autenticidad, aunque reconoce tener poco conocimiento técnico, lo que genera desconfianza hacia mecanismos tradicionales como los sellos de quilataje, ya que pueden ser falsificados. Asimismo, ella también valora el origen ético de los productos, tiene una postura positiva hacia certificaciones como “cruelty-free” y afirma que estaría dispuesta a pagar más por una joya que garantice tanto autenticidad como condiciones laborales justas. Además, señala que dejaría de consumir una marca si descubre prácticas de explotación laboral. Antes de realizar una compra le gustaría tener información clara sobre la autenticidad del material, el precio y la procedencia del producto. Finalmente, considera que herramientas tecnológicas como la verificación mediante QR o aplicaciones serían una solución efectiva para aumentar la confianza del consumidor. |
 
 <div style="page-break-after: always"></div>
 
@@ -186,7 +186,7 @@
 | Distrito | |
 | Ocupación | |
 | Timming inicio | |
-| duración | |
+| Duración | |
 | URL | |
 | Screenshot | |
 | Resumen | |
