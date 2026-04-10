@@ -17,6 +17,22 @@ Visión: Smartchain aspira a convertirse en la plataforma líder en trazabilidad
 ## 1.1. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+#### What?
+El problema gira en torno a la falta de trazabilidad de los minerales en el Perú. Lo que dificulta el identificar el origen, la autenticidad y el trayecto de recursos como el oro u otros metales.
+Según la directora ejecutiva de la Sociedad Nacional de Mineria, Angela Grossheim, rastrear el origen de minerales, especialmente el oro, es difícil debido al mercado informal mezclándose con el mercado formal (DesdeAdentro, 2025). Esto indica que en el sector existen dudas acerca de los minerales y si estos tienen un origen legal, de la misma manera en que se pueden manipular los datos de los productos lo cual incrementa el riesgo de perdidas y/o fraude.
+#### Who?
+Alrededor de este tema se pueden identificar varios actores, principalmente a las empresas mineras, ya que estas presentan dificultades para mantener un control optimo de su logística. Lo cual termina en ineficiencia operativa, problemas con los equipos y pérdidas de recursos económicos y materiales.
+Por otro lado, también como actores involucrados se incluye a las joyerías y los consumidores finales, puestos que estos buscan adquirir productos auténticos que posean un origen ético. Sin embargo, al no contar con datos confiables se crea una desconfianza en el mercado sobre el verdadero valor de algunos productos. 
+#### Where?
+Este problema se presenta alrededor de la industria minera, como en las zonas de extracción, las etapas de transporte, el almacenamiento, procesamiento y comercialización de los minerales.
+#### When?
+La problemática sucede en momentos como el desplazamiento, procesamiento y transferencia de los minerales.
+#### Why?
+Este problema aparece debido al bajo uso de tecnologías para supervisar y gestionar los minerales, ya que muchas empresas siguen utilizando registros manuales cuyos datos pueden ser fácilmente alterables.
+#### How?
+El problema surge debido a la falta de seguimiento de los minerales, lo que lleva a que nuestros usuarios utilicen la solución cuando requieran asegurar el control y la verificación de los minerales.
+#### How much?
+Esta problemática afecta a varios sectores, pero en especial al económico. Según el fiscal coordinado de las Fiscalias Especializadas en Materia Ambiental, Frank Almanza, afirmo que las pérdidas económicas por minería ilegal equivalen al 2,5% del PBI (Canchari, 2025). Gracias a esto, podemos deducir que la ausencia de un sistema de seguimiento impacta no solo a los ingresos de las empresas, sino que también tiene consecuencias en la economía nacional, resaltando lo importante que es buscar una solución a este problema.
 
 ### 1.2.2. Lean UX Process
 
@@ -67,7 +83,17 @@ Se utiliza durante todo el proceso del ámbito minero, llendo desde la extracci�
 Debe ser intuitiva mediante el uso de dashboards, de esta manera brindara una navegación sencilla a los usuarios mientras brinda información confiable y lo suficientemente rápida como para estar a tiempo real.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+**Creemos** que una plataforma que permita monitorear en tiempo real los minerales ayudara a reducir las perdidas de minerales.
+**Sabremos que** hemos tenido éxito
+**Cuando** en los reportes de las empresas mineras disminuya la cantidad de perdidas.
 
+**Creemos** que una plataforma que pueda certificar la autenticidad de los minerales ayudara a mejorar la confianza entre tiendas y consumidores.
+**Sabremos que** hemos tenido éxito
+**Cuando** los productos con certificación sean más vendidos respecto a los productos regulares.
+
+**Creemos que** una plataforma que permita al usuario observar información de los productos en venta logrará fomentar decisiones de compra responsables.
+**Sabremos que** hemos tenido éxito
+**Cuando** calculemos el tiempo de visualización de información como una estadística.
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos Objetivo
