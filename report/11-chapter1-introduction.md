@@ -3,7 +3,7 @@
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción del Startup
-Nuestra Start Up "Smartchain" se centra en la industria minera, con el objetivo de monitorear, examinar y certificar el camino de los minerales desde su extracción hasta el producto final. Esto se logra mediante el desarrollo de una plataforma que permite la trazabilidad de minerales, utilizando tecnología IoT, soluciones web e inteligencia artificial. 
+Nuestra Start Up "Smartchain" se centra en la industria minera, con el objetivo de monitorear, examinar y certificar el camino de los minerales desde su extracción hasta el producto final. Esto se logra mediante el desarrollo de una plataforma que permite la trazabilidad de minerales, utilizando tecnología IoT, soluciones web e inteligencia artificial.
 
 La solución propuesta ayuda a las empresas mineras a aumentar la eficacia y la logística, minimizando pérdidas al igual que optimizando la gestión de las operaciones mediante el uso de datos en tiempo real. Asimismo, proporciona a las joyerías las herramientas imprescindibles para confirmar el origen de los minerales, lo que les permite ofrecer productos de calidad.
 
@@ -69,17 +69,17 @@ Hemos observado que el consumidor no tiene una forma de verificar si el producto
 - Lo resolveremos realizando interfaces simple y sesiones de entrenamiento simulando casos reales.
 
 **User Assumptions:**
-- ¿Quien es el usuario?
+- **¿Quien es el usuario?**
 Los usuarios son empresas mineras que necesiten gestionar los bienes obtenidos. Tambien estan, las joyerías que requieran validar dichos insumos. Finalmente son los usuarios finales que esten interesados en conocer el origen de los productos y evitar ser estafados en el proceso.
-- ¿Que problemas tiene nuestro producto que resolver?
+- **¿Que problemas tiene nuestro producto que resolver?**
 Nuestro producto tiene que resolver las dificultades en el monitoreo de los minerales, al igual que necesita verificar tanto la autenticidad como el origen etico de estos.
-- ¿Que caracteristicas son importantes?
+- **¿Que caracteristicas son importantes?**
 Se incluye el registro y monitoreo en tiempo real del traslado de los minerales, en estos registros estará información como el peso del mineral, la cantidad de este, las condiciones del envió y la verificación de la carga y de la descarga. Del mismo modo es necesaria la generacion de reportes especificando quien superviso, quien manipulo, cuando y donde.
-- ¿Donde encaja nuestro producto en su trabajo o vida?
+- **¿Donde encaja nuestro producto en su trabajo o vida?**
 El producto encaja en la gestión operativa y en la logística de las empresas mineras para que estas puedan tener un mejor control sobre los minerales obtenidos. También encaja tanto en tiendas como en consumidores pues estos pueden validar y verificar información sobre los productos.
-- ¿Cuando y como es nuestro producto usado?
+- **¿Cuando y como es nuestro producto usado?**
 Se utiliza durante todo el proceso del ámbito minero, llendo desde la extracción, incluyendo el traslado, el deposito o el procesamiento hasta la venta final. El producto puede ser usado mediante una plataforma web en cualquier momento siendo limitado por el rol del usuario.
-- ¿Como debe verse nuestro producto y como debe comportarse?
+- **¿Como debe verse nuestro producto y como debe comportarse?**
 Debe ser intuitiva mediante el uso de dashboards, de esta manera brindara una navegación sencilla a los usuarios mientras brinda información confiable y lo suficientemente rápida como para estar a tiempo real.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
@@ -88,14 +88,50 @@ Debe ser intuitiva mediante el uso de dashboards, de esta manera brindara una na
 **Cuando** en los reportes de las empresas mineras disminuya la cantidad de perdidas.
 
 **Creemos** que una plataforma que pueda certificar la autenticidad de los minerales ayudara a mejorar la confianza entre tiendas y consumidores.
-
 **Sabremos que** hemos tenido éxito
-
 **Cuando** los productos con certificación sean más vendidos respecto a los productos regulares.
 
-- **Creemos que** una plataforma que permita al usuario observar información de los productos en venta logrará fomentar decisiones de compra responsables.
+**Creemos que** una plataforma que permita al usuario observar información de los productos en venta logrará fomentar decisiones de compra responsables.
 **Sabremos que** hemos tenido éxito
 **Cuando** calculemos el tiempo de visualización de información como una estadística.
 #### 1.2.2.4. Lean UX Canvas
-
+![Lean UX Canvas SmartChain](../assets/img/chapter-i/LeanUXCanvas.png)
 ## 1.3. Segmentos Objetivo
+### Segmento 1: Empresas mineras
+#### Descripción general:
+Se refiere a las empresas que se dedican a la extracción de los minerales que terminan siendo procesados en productos pero que tienen problemas en la trazabilidad de sus operaciones.
+
+#### Perfil Operativo:
+Incluye a ingenieros y supervisores de entre 30 a 60 años que trabajan en las zonas mineras del Perú.
+
+#### Datos del sector:
+Según Canchari (2025), los problemas de trazabilidad y control en el sector minero genera mas de 22 mil millones de soles como perdidas al año.
+
+#### Necesidad:
+Este segmento necesita herramientas tecnológicas que permita el monitoreo en tiempo real para optimizar la logística en el ámbito minero.
+
+### Segmento 2: Joyerías 
+#### Descripción general:
+Se refiere a empresas que venden productos cuyo material principal son los minerales pero que tienen dificultades al momento de garantizar el origen de dichos productos.
+
+#### Perfil Operativo:
+Incluye a dueños y gerentes de dichas tiendas cuya edad varia entre 26 a 60 años ubicados en zonas comerciales del Perú
+
+#### Datos del sector:
+Según el presidente de la Sociedad Nacional de Mineria, Petroleo y Energia, Victor Gobitz, la minería ilegal implementa más del millón de onzas de oro al mercado (Cruz, 2024). Esta alarmante cantidad significa que existe una alta probabilidad de que las joyerías vendan productos con una trazabilidad inexistente.
+
+#### Necesidad:
+Este segmento necesita herramientas tecnológicas que permitan validar el origen del mineral para ofrecer una certificación confiable a los clientes.
+
+### Segmento 3: Consumidores finales
+#### Descripción general:
+Se refiere a personas que compran productos como joyas.
+
+#### Perfil Operativo:
+Incluye adultos jóvenes de entre 18 a 25 años con un interés en el consumo responsable.
+
+#### Datos del sector:
+Según el Anuario Minero 2024 del Minem, el Perú produjo 100 mil toneladas de oro, pero exporto 200 mil (Nuñez, 2025). Esto indica que alrededor de 100 mil toneladas de oro ilegales pueden ser exportadas mediante canales formales los cuales terminan siendo compradas por los consumidores.
+
+#### Necesidad:
+Este segmento necesita herramientas que les permita acceder a la información del producto de manera sencilla para poder reconocer su origen y autenticidad.
