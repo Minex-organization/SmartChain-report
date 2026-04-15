@@ -83,29 +83,29 @@
 
 | Segmento: Empresas Mineras | Entrevista #1 |
 | --- | --- |
-| Nombres y Apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
+| Nombres y Apellidos | Efraín Zelaya |
+| Edad | 42 años |
+| Distrito | Huaura |
+| Ocupación | Ingeniero metalurgista |
 | Timming inicio | |
-| Duración | |
+| Duración | 17 minutos y 08 segundos |
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Efraín](../assets/img/chapter-ii/interview-Efraín.jpeg) |
+| Resumen |El entrevistado es un ingeniero metalurgista de 42 años residente en Huacho (Huaura), con 10 años de experiencia en el sector minero, el cual se desempeña en la planta concentradora, enfocado en la recuperación de metales valiosos. Utiliza principalmente el celular y aplicaciones como WhatsApp para reportes, debido a las limitaciones de conectividad en zonas mineras, lo que evidencia un uso restringido de herramientas digitales. Su objetivo principal es maximizar la recuperación de recursos valiosos mediante análisis químicos de laboratorio que permiten evaluar las leyes del mineral y asegurar la rentabilidad del proceso. Uno de los principales problemas identificados es la falta de trazabilidad, especialmente en la minería informal, donde se trabaja sin información precisa ni planificación, ello genera pérdidas económicas significativas y un alto índice de fracaso en proyectos. Además, menciona como frustración la excesiva carga burocrática del Estado, que dificulta la formalización y operación eficiente. Finalmente, considera que la implementación de sistemas digitales de rastreo sería altamente beneficiosa, ya que permitiría monitorear en tiempo real información clave como las leyes del mineral. Esto facilitaría una mejor toma de decisiones por parte de ingenieros, geólogos y mineros, reduciendo errores y optimizando los procesos productivos. |
 
 <div style="page-break-after: always"></div>
 
 | Segmento: Empresas Mineras | Entrevista #2 |
 | --- | --- |
-| Nombres y Apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
+| Nombres y Apellidos | Max Alonso Yapo Figueroa|
+| Edad | 31|
+| Distrito | Arequipa (Cercado)|
+| Ocupación | Ingeniero metalurgista |
 | Timming inicio | |
-| Duración | |
+| Duración | 6 minutos y 27 segundos|
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Max](../assets/img/chapter-ii/interview-Max.jpg)|
+| Resumen | El entrevistado es un profesional de 31 años, residente en Arequipa, que se desempeña como jefe de metalurgia y operaciones. En su trabajo utiliza principalmente el celular y la laptop, además de herramientas especializadas como Molycop. Actualmente, el registro del traslado de minerales se realiza mediante plantillas de Excel, complementadas con personal encargado del seguimiento desde la mina hasta la planta. Sin embargo, este proceso presenta limitaciones, ya que el control es en gran parte empírico, lo que genera errores en el pesaje de los volquetes y en las balanzas. Estos errores, aunque inicialmente pequeños, se acumulan con el tiempo y generan cuellos de botella operativos, afectando la precisión de los datos. Si bien existe un monitoreo constante mediante personal distribuido en la ruta, la trazabilidad no siempre es completamente precisa. Respecto a las fallas, suelen ser de nivel leve a moderado y están relacionadas con factores operativos. Además, el registro de incidentes se realiza de forma manual (en papel), utilizando dispositivos digitales solo para comunicación, lo que limita la eficiencia del proceso. Finalmente, el entrevistado considera que la implementación de un sistema digital de rastreo desde la extracción sería altamente beneficiosa, destaca la importancia de contar con información precisa sobre la ubicación del mineral y el tonelaje exacto, ya que los errores en estos datos afectan directamente el control del concentrado y la toma de decisiones en la planta.|
 
 <div style="page-break-after: always"></div>
 
@@ -126,7 +126,7 @@
 | Segmento: Joyerías | Entrevista #1 |
 | --- | --- |
 | Nombres y Apellidos | Yesiliany Canchica Muñoz |
-| Edad | 21 |
+| Edad | 21 años |
 | Distrito | Surquillo |
 | Ocupación | Secretaria de Joyería |
 | Timming inicio | |
@@ -168,7 +168,7 @@
 | Segmento: Usuario consumidor | Entrevista #1 |
 | --- | --- |
 | Nombres y Apellidos | Carla Gallardo Morales |
-| Edad | 19 |
+| Edad | 19 años |
 | Distrito | La Molina |
 | Ocupación | Estudiante universitaria |
 | Timming inicio | |
@@ -181,29 +181,29 @@
 
 | Segmento: Usuario consumidor | Entrevista #2 |
 | --- | --- |
-| Nombres y Apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
+| Nombres y Apellidos | Mauricio Moquillaza |
+| Edad | 19 años |
+| Distrito | Jesús María |
+| Ocupación | Estudiante|
 | Timming inicio | |
-| Duración | |
+| Duración |11 minutos y 35 segundos |
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Mauricio](../assets/img/chapter-ii/interview-Mauricio.png)|
+| Resumen | El entrevistado es Mauricio Moquillaza, un joven de 19 años, residente en Jesús María, Lima, soltero. Utiliza con frecuencia el celular y la laptop, mostrando un perfil digital activo. Su frecuencia de compra de joyas es baja, aproximadamente una vez al año, priorizando productos duraderos y de larga vida útil. Al momento de comprar, se enfoca principalmente en la apariencia visual, la durabilidad y que el precio sea acorde al producto, restando importancia a la marca. Sin embargo, muestra una alta preocupación por la autenticidad, debido a la existencia de falsificaciones. Aunque posee conocimientos básicos de verificación (como pruebas caseras), su nivel de confianza en las marcas es bajo ya que considera que muchas utilizan el marketing como estrategia más que como garantía real. En cuanto al aspecto ético, considera importante el origen de las joyas, especialmente para evitar contribuir a la minería ilegal o explotación laboral. Afirma que estaría dispuesto a pagar un poco más por productos certificados y que dejaría de comprar una marca si se comprobara que incurre en prácticas poco éticas. Finalmente, destaca el valor de herramientas tecnológicas como aplicaciones o códigos QR para verificar la autenticidad y trazabilidad del producto. Le gustaría acceder a información clara sobre la pureza del material y su procedencia, lo que refleja una necesidad de mayor transparencia y confianza en el mercado de joyería. |
 
 <div style="page-break-after: always"></div>
 
 | Segmento: Usuario consumidor | Entrevista #3 |
 | --- | --- |
-| Nombres y Apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
+| Nombres y Apellidos | Oliver Galindo |
+| Edad | 20 años |
+| Distrito | Comas |
+| Ocupación | Estudiante |
 | Timming inicio | |
-| duración | |
+| Duración | 09 minutos y 43 segundos|
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Oliver](../assets/img/chapter-ii/interview-Oliver.png)|
+| Resumen |El entrevistado es Oliver Galindo, un joven de 20 años, residente en Comas, soltero. Utiliza principalmente el celular y la computadora, lo que refleja un perfil digital activo. Su frecuencia de compra de joyas es baja y está orientada principalmente a la adquisición de obsequios solo ocasiones especiales. Al comprar, prioriza la calidad y la durabilidad del producto, seguido de la relación calidad-precio. Aunque inicialmente el diseño puede ser más relevante que la autenticidad técnica, menciona que sí muestra interés en verificar la veracidad del producto consultando al vendedor o revisando sellos de autenticidad, especialmente en materiales como oro o perlas. Respecto al origen ético, considera importante consumir productos legales y responsables, aunque reconoce que es difícil acceder a esta información. Por ello, opta por comprar en lugares formales para reducir riesgos. Además, estaría dispuesto a pagar más por productos con certificación ética y afirma que dejaría de comprar marcas vinculadas a la explotación laboral. Finalmente, percibe un bajo nivel de confianza en las marcas, ya que considera que muchas veces la información es solo marketing. En este contexto, valora positivamente el uso de herramientas tecnológicas como códigos QR o aplicaciones que permitan verificar la autenticidad y procedencia del producto, evidenciando una necesidad de mayor transparencia en el mercado. |
 
 <div style="page-break-after: always"></div>
 
