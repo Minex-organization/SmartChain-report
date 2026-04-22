@@ -65,36 +65,45 @@ En esta seccion se detallaran cada User Stories para divididas por las epicas es
 ![Impact Map Joyería](../assets/img/Chapter-3/ImpactMapping-Joyero.png)
 
 ### Impact Mapping: Cliente Final
-![Impact Map Cliente Final](../assets/img/Chapter-3/ImpactMapping-ClienteFinal.png)
+![Impact Map Cliente Final](../assets/img/Chapter-3/ImpactMapping-Cliente.png)
 
 ## 3.4. Product Backlog
 
-| # Orden | Historia de Usuario ID | Título | Descripción | Prioridad | Story Points (1/2/3/5/8) |
+| # Orden | ID | Título | Descripción | Prioridad | Story Points (1/2/3/5/8) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | US14 | Navegación Principal del Sitio | Como Visitante, quiero navegar por el portal informativo estructurado para conocer la propuesta de valor y los beneficios del servicio de trazabilidad. | Alta | 3 |
-| 2 | US15 | Redirección de Segmentos (Call-to-Action) | Como Visitante perfilado (Minera, Joyero o Cliente), quiero interactuar con enlaces de acción específicos para ser redirigido directamente a mi entorno correspondiente en la Web Application. | Alta | 2 |
-| 3 | US16 | Visualización de Presentaciones Multimedia | Como Visitante o Inversor, quiero acceder a los videos de presentación del producto y del equipo para comprender integralmente la solución y la confiabilidad de la startup. | Media | 3 |
-| 4 | US01 | Registro de lote de extracción | Como Operador Minero, quiero registrar un nuevo lote de minerales extraídos en la plataforma para que su origen y peso queden documentados desde el inicio. | Alta | 5 |
-| 5 | US02 | Ingreso de datos offline | Como Operador Minero, quiero registrar operaciones en el sistema aunque no tenga conexión a la red para no detener el flujo de trabajo en zonas remotas. | Alta | 5 |
-| 6 | US03 | Sincronización automática de datos offline | Como Operador Minero, quiero que los registros guardados localmente se envíen al servidor en cuanto recupere la señal para mantener la base de datos actualizada sin intervención manual. | Alta | 8 |
-| 7 | US21 | Endpoint Lotes | Como Developer, quiero un endpoint REST estructurado para gestionar (crear, leer) los lotes desde los dispositivos móviles de los operarios. | Alta | 5 |
-| 8 | US06 | Escaneo de entrega de custodia | Como Conductor de Transporte, quiero escanear el código QR de un lote al recogerlo para que mi responsabilidad sobre la custodia quede registrada. | Alta | 5 |
-| 9 | US07 | Recepción de lote en refinería | Como Operario de Refinería, quiero confirmar la llegada de un lote escaneando su QR para que la mina sepa que el material llegó a destino. | Alta | 5 |
-| 10 | US08 | División de lotes procesados (Split) | Como Operario de Refinería, quiero dividir un lote bruto en unidades más pequeñas para distribuirlas a joyerías manteniendo la trazabilidad. | Alta | 8 |
-| 11 | US05 | Impresión de código QR del lote | Como Encargado Logístico, quiero generar una etiqueta QR para adherirla físicamente al contenedor y facilitar su rastreo en las siguientes etapas. | Media | 3 |
-| 12 | US22 | Servicio QR | Como Developer, quiero un servicio backend que genere imágenes QR vinculadas a IDs de lotes para su posterior impresión. | Media | 5 |
-| 13 | US09 | Recepción de material certificado | Como Joyero, quiero registrar el ingreso de lotes validados por la refinería para mantener un inventario de material 100% ético. | Alta | 5 |
-| 14 | US10 | Registro de material directo del cliente | Como Joyero, quiero registrar metales adquiridos a clientes particulares de forma independiente para no contaminar la trazabilidad del stock certificado. | Media | 5 |
-| 15 | US11 | Bloqueo por mezcla de materiales | Como Joyero, quiero que el sistema me impida unificar material certificado con no certificado para proteger la garantía ética que ofrezco a mis clientes. | Alta | 3 |
-| 16 | US12 | Escaneo de QR de producto | Como Cliente, quiero escanear el QR de una joya para ver su origen e información detallada de forma instantánea. | Alta | 3 |
-| 17 | US13 | Visualización de Journey Map | Como Cliente, quiero ver un mapa visual del recorrido del mineral desde la mina hasta la tienda para confirmar su ética. | Alta | 8 |
-| 18 | US04 | Reporte de anomalías en extracción | Como Supervisor Minero, quiero reportar anomalías sobre un lote específico para alertar sobre posibles pérdidas o discrepancias en el peso antes de su traslado. | Media | 3 |
-| 19 | US23 | Cloud Storage | Como Developer, quiero integrar un servicio de almacenamiento en la nube (AWS S3) para guardar las evidencias fotográficas de los reportes y recepciones. | Media | 5 |
-| 20 | US24 | Generador PDF | Como Developer, quiero compilar certificados en formato PDF dinámicamente en el backend para respaldar la autenticidad del material. | Media | 5 |
-| 21 | US18 | Aprobación de Cuentas B2B (Mineras y Joyerías) | Como Administrador del Sistema, quiero revisar y aprobar las solicitudes de registro de nuevas empresas para garantizar que solo actores verificados participen. | Alta | 5 |
-| 22 | US17 | Autenticación de Administrador | Como Administrador del Sistema, quiero autenticarme de forma segura para acceder a las herramientas de configuración y gestión de la plataforma. | Media | 3 |
-| 23 | US20 | Implementación de Seguridad JWT | Como Desarrollador, quiero implementar autenticación basada en tokens JWT para proteger todos los endpoints del RESTful API. | Alta | 8 |
-| 24 | US19 | Auditoría General de Trazabilidad | Como Administrador del Sistema, quiero acceder a un registro maestro (log) de todos los movimientos de lotes para investigar posibles fraudes. | Baja | 8 |
-| 25 | US25 | Rate Limiting | Como Developer, quiero limitar la cantidad de peticiones concurrentes a los endpoints para evitar ataques de denegación de servicio (DDoS). | Baja | 3 |
-| 26 | US26 | Health Check | Como Developer, quiero implementar un endpoint de validación de estado para monitorear si el servidor y la base de datos están operativos. | Baja | 2 |
-| 27 | US27 | Backups DB | Como Developer, quiero configurar copias de seguridad automáticas diarias de la base de datos para prevenir pérdida de información crítica. | Media | 3 |
+| 1 | US01 | Consulta de propuesta de valor principal | Como Visitante, quiero conocer la propuesta de valor y acceder al video para entender el enfoque de OpalTrace. | Alta | 3 |
+| 2 | US02 | Visualización de pilares de valor | Como Visitante, quiero conocer los tres pilares fundamentales de OpalTrace para entender sus diferenciadores técnicos. | Alta | 2 |
+| 3 | US03 | Consulta de beneficios por segmento | Como Visitante, quiero ver los beneficios específicos para cada actor para identificar mi perfil. | Alta | 2 |
+| 4 | US04 | Visualización del flujo de trazabilidad | Como Visitante, quiero entender el proceso estructurado para comprender cómo la plataforma conecta el origen con el consumidor. | Alta | 3 |
+| 5 | US05 | Comparación de planes comerciales | Como Visitante, quiero contrastar los planes de suscripción para elegir el nivel de servicio adecuado. | Alta | 3 |
+| 6 | US09 | Redirección a módulos de identidad | Como Visitante, quiero ser enrutado hacia los módulos de inicio de sesión y registro para gestionar mis credenciales. | Alta | 2 |
+| 7 | US06 | Consulta corporativa MINEX | Como visitante, quiero leer la información institucional y acceder al video para validar la confiabilidad. | Media | 2 |
+| 8 | US07 | Envío de formulario de contacto | Como visitante, quiero enviar una comunicación formal al equipo de MINEX para gestionar consultas técnicas. | Media | 3 |
+| 9 | US08 | Internacionalización del portal | Como visitante, quiero modificar el idioma del portal entre español e inglés para consumir la información. | Media | 5 |
+| 10 | US10 | Consulta de términos y condiciones | Como Visitante, quiero acceder al documento de términos y condiciones para evaluar el marco legal. | Baja | 1 |
+| 11 | US11 | Consulta de políticas de privacidad | Como Visitante, quiero revisar las políticas de privacidad para certificar el manejo de datos. | Baja | 1 |
+| 12 | US12 | Acceso a canales externos oficiales | Como Visitante, quiero obtener las referencias directas a las redes sociales de OpalTrace. | Baja | 1 |
+| 13 | US30 | Endpoint Gestión de Lotes | Como Desarrollador, quiero un endpoint REST estructurado para gestionar la creación y lectura de los lotes mineros. | Alta | 5 |
+| 14 | US13 | Registro de lote de extracción | Como Operador Minero, quiero registrar un nuevo lote de minerales para documentar peso y origen. | Alta | 5 |
+| 15 | US14 | Ingreso de datos offline | Como Operador Minero, quiero registrar operaciones sin red para no detener el trabajo en zonas remotas. | Alta | 8 |
+| 16 | US15 | Sincronización automática | Como Operador Minero, quiero que los registros locales se envíen al servidor automáticamente al recuperar la señal. | Alta | 8 |
+| 17 | US18 | Escaneo de entrega de custodia | Como Transportista, quiero validar la recepción de un lote para registrar el inicio de mi responsabilidad. | Alta | 5 |
+| 18 | US19 | Recepción en refinería | Como Operario de Refinería, quiero confirmar la llegada de la carga para habilitar su procesamiento. | Alta | 3 |
+| 19 | US20 | División de lotes (Split) | Como Operario de Refinería, quiero fragmentar un lote bruto en unidades menores manteniendo la herencia. | Alta | 8 |
+| 20 | US31 | Servicio Generador de QR | Como Desarrollador, quiero un servicio backend que genere imágenes QR vinculadas a los identificadores únicos. | Media | 5 |
+| 21 | US17 | Generación de identificador QR | Como Encargado Logístico, quiero generar un código vinculado al lote para facilitar el rastreo en etapas. | Media | 3 |
+| 22 | US21 | Recepción de material certificado | Como Joyero, quiero registrar el ingreso de material validado por OpalTrace para asegurar stock ético. | Alta | 3 |
+| 23 | US22 | Registro de material externo | Como Joyero, quiero documentar metales de terceros para evitar contaminar la trazabilidad. | Media | 3 |
+| 24 | US23 | Bloqueo por mezcla | Como Joyero, quiero que el sistema restrinja unificar stock certificado con externo para proteger garantías. | Alta | 5 |
+| 25 | US24 | Consulta de trazabilidad | Como Cliente Final, quiero procesar el código de mi joya para visualizar la historia completa desde la extracción. | Alta | 5 |
+| 26 | US25 | Visualización de Journey Map | Como Cliente Final, quiero visualizar el mapa geográfico del recorrido del mineral. | Alta | 8 |
+| 27 | US16 | Reporte de anomalías | Como Supervisor Minero, quiero registrar incidencias sobre un lote para alertar sobre discrepancias. | Media | 3 |
+| 28 | US32 | Integración Cloud Storage (S3) | Como Desarrollador, quiero integrar AWS S3 para almacenar evidencias fotográficas de forma escalable. | Media | 8 |
+| 29 | US33 | Servicio de Generación PDF | Como Desarrollador, quiero compilar certificados en PDF para respaldar la autenticidad del material. | Media | 5 |
+| 30 | US27 | Aprobación de cuentas B2B | Como Administrador, quiero validar solicitudes de registro empresarial para asegurar actores confiables. | Alta | 5 |
+| 31 | US29 | Implementación de Seguridad JWT | Como Desarrollador, quiero implementar tokens JWT para proteger los endpoints de la API RESTful. | Alta | 8 |
+| 32 | US26 | Autenticación administrativa | Como Administrador de MINEX, quiero autenticarme de forma segura para gestionar la infraestructura. | Media | 3 |
+| 33 | US28 | Auditoría de movimientos | Como Administrador, quiero acceder a registros inmutables para investigar fraudes o discrepancias. | Media | 8 |
+| 34 | US34 | Implementación de Rate Limiting | Como Desarrollador, quiero limitar peticiones concurrentes para evitar ataques DDoS. | Baja | 3 |
+| 35 | US35 | Endpoint de Health Check | Como Desarrollador, quiero un endpoint de validación para monitorear la operatividad del servidor. | Baja | 2 |
+| 36 | US36 | Automatización de Backups | Como Desarrollador, quiero configurar copias de seguridad de la base de datos MySQL. | Media | 3 |
