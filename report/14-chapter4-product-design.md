@@ -41,31 +41,23 @@
 ### 4.6.1. Design-Level EventStorming
 
 ### 4.6.2. Software Architecture Context Diagram
-Para definir los límites de la solución SmartChain, se ha elaborado el diagrama de contexto siguiendo el modelo C4. Este diagrama permite visualizar cómo el sistema interactúa con los diversos actores (Mineras, Joyerías, Clientes Finales y Administradores) y con los servicios externos críticos como Google Maps API para la geolocalización, AWS S3 para el almacenamiento de evidencias inmutables y SendGrid para la gestión de notificaciones transaccionales.
+Para definir los límites de la solución, se ha elaborado el diagrama de contexto siguiendo el modelo C4. Este diagrama permite visualizar cómo el sistema **OpalTrace** interactúa con los diversos actores del negocio (Operadores Mineros, Joyerías, Clientes Finales y Administradores de **MINEX**) y con los servicios externos críticos como Google Maps API para la geolocalización, AWS S3 para el almacenamiento de evidencias inmutables y SendGrid para la gestión de notificaciones.
 
-![Diagrama de Contexto de SmartChain](../assets/img/Chapter-4/C4-Models/Context.png)
-**Explicación de las interacciones:**
-* **Servicios de Localización:** El sistema consume la API de Google Maps para validar las coordenadas GPS capturadas durante los traslados de material.
-* **Persistencia de Evidencias:** Se integra con AWS S3 para garantizar que las fotografías de los lotes y los certificados PDF se almacenen de forma segura y escalable.
+![Diagrama de Contexto de OpalTrace](../assets/img/Chapter-4/C4-Models/Context.png)
+*Figura 1: Diagrama de Contexto del Sistema OpalTrace.*
   
 ### 4.6.3. Software Architecture Container Diagrams
-En este segundo nivel de abstracción, se detalla la distribución de responsabilidades entre los contenedores de software. Se ha optado por una arquitectura desacoplada donde el front-end, desarrollado como una Progressive Web App (PWA) en Angular, permite la resiliencia operativa en zonas mineras con conectividad limitada. El back-end se estructura sobre una API RESTful con Spring Boot, la cual orquesta la lógica de negocio y se comunica con un motor de base de datos relacional MySQL para la persistencia de datos estructurados.
+En este segundo nivel de abstracción, se detalla la distribución de responsabilidades. Se ha optado por una arquitectura desacoplada donde el front-end se divide en un **Portal Informativo** (Landing Page) para la captación y redirección, y una **OpalTrace Web App** (PWA) desarrollada en Angular que permite la resiliencia operativa en zonas mineras. El back-end se estructura sobre una API RESTful con Spring Boot, la cual orquesta la lógica de trazabilidad y se comunica con un motor de base de datos MySQL.
 
-![Diagrama de Contenedores de SmartChain](../assets/img/Chapter-4/C4-Models/Containers.png)
+![Diagrama de Contenedores de OpalTrace](../assets/img/Chapter-4/C4-Models/Containers.png)
 
-**Detalle de contenedores:**
-* **SmartChain PWA:** Aplicación cliente que gestiona el almacenamiento local para la sincronización posterior de datos.
-* **API RESTful:** Servidor de aplicaciones Java que expone los endpoints necesarios para la captura de telemetría IoT y gestión de usuarios.
-
+*Figura 2: Diagrama de Contenedores de OpalTrace.*
 ### 4.6.4. Software Architecture Components Diagrams
-Finalmente, se presenta el desglose interno de la API RESTful. El sistema se ha organizado siguiendo el patrón de diseño por componentes para facilitar el mantenimiento y la escalabilidad. Se distinguen tres módulos principales: el componente de Seguridad (IAM) para la protección de recursos mediante tokens JWT, el componente de Logística para el seguimiento de la cadena de suministro, y el componente de Inventario para la gestión de certificaciones de joyería ética.
+Finalmente, se presenta el desglose interno de la API RESTful. Se distinguen tres módulos principales: el componente de Seguridad (IAM) para la protección de recursos mediante JWT, el componente de Logística y Trazabilidad para el seguimiento de la cadena de suministro en origen, y el componente de Inventario y Certificación para procesar la división de lotes y garantizar que el stock de joyería no se contamine con material no verificado.
 
 ![Diagrama de Componentes de la API](../assets/img/Chapter-4/C4-Models/Components.png)
 
-**Componentes destacados:**
-* **Security Component:** Implementa Spring Security para filtrar cada solicitud y validar los permisos según el rol del usuario (B2B o Administrador).
-* **Logistics Component:** Encargado de procesar los eventos de trazabilidad y la integración con el servicio de mapas.
-## 4.7. Software Object-Oriented Design
+*Figura 3: Diagrama de Componentes internos de la API RESTful.*
 
 ### 4.7.1. Class Diagrams
 
