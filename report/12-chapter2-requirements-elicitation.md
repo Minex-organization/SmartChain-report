@@ -111,15 +111,15 @@
 
 | Segmento: Empresas Mineras | Entrevista #3 |
 | --- | --- |
-| Nombres y Apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Timming inicio | |
-| Duración | |
+| Nombres y Apellidos | Rick Boris Guill Ortiz |
+| Edad | 34 años |
+| Distrito | Ate - Lima |
+| Ocupación | Ingeniero de minas (Analista de control de proyectos mineros) |
+| Timming inicio |  |
+| Duración | 8 minutos y 52 segundos |
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Rick](../assets/img/chapter-ii/interview-Rick.png) |
+| Resumen | El entrevistado es Rick Boris Guill Ortiz, ingeniero de minas con más de 8 años de experiencia quien se desempeña como analista de control de proyectos. El se centra en el seguimiento de costos, volúmenes de producción e indicadores, utilizando herramientas como Excel, Power BI y Teams, lo que refleja un uso moderado de tecnología en la gestión. Respecto al traslado y monitoreo del mineral, el registro se realiza principalmente de forma manual mediante partes diarios completados por los operadores. El seguimiento se apoya en supervisión directa y comunicación por WhatsApp con evidencias fotográficas, lo que evidencia una baja digitalización en estos procesos. Esta metodología genera limitaciones en la precisión de los datos especialmente en cálculos topográficos y en la detección oportuna de fallas. Por otro lado, uno de los principales problemas identificados es la falta de trazabilidad y comunicación eficiente, por ejemplo, incidentes como averías o ausencia de personal pueden tardar hasta una semana en reportarse, afectando directamente la producción. Dichas fallas generan impactos económicos significativos, como el incumplimiento de metas de volumen lo que repercute en los ingresos de la operación. Finalmente, el entrevistado muestra una alta apertura hacia la implementación de tecnologías avanzadas, como sensores, inteligencia artificial o sistemas integrados que permitan monitorear el mineral en tiempo real y mejorar la valorización automática. |
 
 <div style="page-break-after: always"></div>
 
@@ -139,29 +139,29 @@
 
 | Segmento: Joyerías | Entrevista #2 |
 | --- | --- |
-| Nombres y Apellidos | |
-| Edad | |
+| Nombres y Apellidos | Dante |
+| Edad |23 años |
 | Distrito | |
-| Ocupación | |
+| Ocupación | Gestiona negocio de joyería |
 | Timming inicio | |
-| Duración | |
+| Duración | 03 minutos y 03 segundos |
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Dante](../assets/img/chapter-ii/interview-Dante.png)|
+| Resumen | El entrevistado es Dante un joven de 23 años que trabaja en una joyería familiar participando activamente en la gestión del negocio. La verificación de autenticidad se basa principalmente en la confianza hacia proveedores de larga trayectoria y en pruebas físicas básicas, como la revisión de sellos y características del material, lo que refleja un enfoque tradicional. A lo largo de su experiencia, su negocio ha enfrentado problemas con materiales falsos, especialmente en etapas iniciales del negocio lo que los llevó a ser más rigurosos en la selección de proveedores. El menciona que la confianza con los clientes se construye mediante el trato directo, la transparencia y la reputación del negocio y que las certificaciones formales solo se solicitan en joyas de mayor valor. En cuanto a la trazabilidad, la joyería maneja registros básicos de forma manual y no cuenta con sistemas digitales que permitan un seguimiento detallado del origen de los materiales. Esta limitación ha generado dudas en algunos clientes, ocasionando incluso la pérdida de ventas por falta de confianza en la autenticidad del producto. Finalmente, cuando los clientes aportan sus propios materiales se sigue un protocolo que incluye la evaluación previa de calidad y una comunicación clara sobre los límites de responsabilidad del negocio, esto permite reducir riesgos y evitar conflictos. |
 
 <div style="page-break-after: always"></div>
 
 | Segmento: Joyerías | Entrevista #3 |
 | --- | --- |
-| Nombres y Apellidos | |
+| Nombres y Apellidos | Mauticio Olera|
 | Edad | |
 | Distrito | |
-| Ocupación | |
+| Ocupación | Especialista en comercialización de joyas |
 | Timming inicio | |
-| Duración | |
+| Duración | 04 minutos y 15 segundos |
 | URL | |
-| Screenshot | |
-| Resumen | |
+| Screenshot | ![Screenshot Mauricio](../assets/img/chapter-ii/interview-Mauricio-Olera.png)|
+| Resumen |El entrevistado es Mauricio Olera un especialista en comercialización y validación de autenticidad en una empresa de joyería. La organización cuenta con procesos estandarizados y un equipo especializado encargado de verificar la calidad y veracidad de los materiales antes de su venta, lo que refleja un mayor nivel de control en comparación con otros negocios del sector. Sin embargo, a pesar de estos procesos el entrevistado relata un incidente crítico con un proveedor que entregó material falso lo que generó la devolución del dinero a un cliente y la ruptura de la relación comercial. Este caso evidenció que la falta de trazabilidad clara puede derivar en errores graves, afectando así la reputación del negocio y la confianza del consumidor. Respecto al comportamiento del cliente, se observa que existe una creciente demanda por certificaciones y pruebas de autenticidad especialmente en compras de alto valor. La ausencia de estos documentos puede generar desconfianza e incluso la pérdida de ventas. Por ello, la empresa busca reforzar la confianza a través de explicaciones detalladas sobre el origen y características de las joyas durante el proceso de venta.Finalmente, aunque la empresa lleva registros sobre el origen de los productos estos no están completamente estructurados lo que representa una debilidad en la gestión de la trazabilidad. Asimismo, cuando los clientes aportan sus propios materiales, estos pasan por procesos de verificación, aunque se reconoce que dichas pruebas no siempre son del todo precisas. |
 
 <div style="page-break-after: always"></div>
 
@@ -209,7 +209,29 @@
 
 ### 2.2.3. Análisis de entrevistas
 
+**Análisis Primer Segmento Empresas Mineras:** En 
+
+![Chart 1](../assets/img/chapter-ii/chart-1.png)
+
+
+**Análisis Segundo Segmento Joyerías:** En conjunto, el segmento joyería 
+![Chart 3](../assets/img/chapter-ii/chart-3.png)
+
+
+**Análisis Tercer Segmento Consumidor Final :** En conjunto, los consumidores entrevistados presentan un comportamiento de compra poco frecuente, orientado principalmente a ocasiones específicas. El 100% prioriza factores como la calidad, durabilidad y precio, mientras que la marca tiene una relevancia baja en la decisión de compra.
+
+Respecto a la confianza y autenticidad, el 100% de los entrevistados manifiesta preocupación por la veracidad del producto, aunque reconoce tener un bajo conocimiento técnico para verificarlo. Como consecuencia, recurren a métodos como consultar al vendedor o usar pruebas básicas, lo que incrementa la incertidumbre durante la compra.
+
+En cuanto a la confianza en las marcas, el 67% presenta un nivel de confianza bajo o moderado, percibiendo que muchas empresas utilizan el marketing sin garantizar realmente la autenticidad o el origen del producto.
+
+Por otro lado, el 100% de los entrevistados valora el origen ético de los productos y estaría dispuesto a pagar un costo adicional (moderado) por garantizar autenticidad y condiciones laborales justas. Asimismo, el 100% muestra interés en herramientas tecnológicas como códigos QR o aplicaciones, que permitan verificar la procedencia, pureza y legalidad del producto antes de la compra.
+
+![Chart 4](../assets/img/chapter-ii/chart-4.png)
 ## 2.3. Needfinding
+
+Para llevar a cabo el proceso de needfinding en OpalTrace, se realizaron entrevistas en profundidad con usuarios pertenecientes a los segmentos objetivo, incluyendo consumidores finales, joyeros y profesionales del sector minero. Estas conversaciones se centraron en comprender sus hábitos, objetivos y principales frustraciones relacionadas con la autenticidad, trazabilidad y confianza en la comercialización de joyas y minerales.
+
+Gracias a esta exploración, se identificaron áreas críticas de mejora, como la falta de transparencia en el origen de los materiales, la baja confianza en los productos adquiridos y la limitada adopción de herramientas digitales en los procesos del sector minero. Asimismo, se evidenció la existencia de brechas tanto tecnológicas como informativas que afectan la toma de decisiones de los usuarios. Durante las entrevistas, surgieron patrones y necesidades recurrentes, como la importancia de contar con un sistema confiable que permita verificar la autenticidad, procedencia y valor real de los productos. De esta manera, se logra identificar una oportunidad clara para desarrollar una solución como OpalTrace, que facilite el acceso a información validada y mejore la confianza en la cadena de valor.
 
 ### 2.3.1. User Personas
 
