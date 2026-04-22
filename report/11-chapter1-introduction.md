@@ -10,20 +10,6 @@
 
 ### 1.2.1. Antecedentes y problemática
 
-#### What?
-
-#### Who?
-
-#### Where?
-
-#### When?
-
-#### Why?
-
-#### How?
-
-#### How much?
-
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
