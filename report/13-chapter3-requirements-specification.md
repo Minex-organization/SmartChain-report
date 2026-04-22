@@ -10,8 +10,8 @@ ID Épica | Nombre de la Épica | Descripción General | Cantidad de HUs |
 | **EP02** | **Procesamiento en Refinería y Logística** | Control de transporte, custodia legal con firma digital y procesos de recepción/división de lotes. | 3 |
 | **EP03** | **Inventario de Joyería y Certificación** | Administración de stock ético vs. reciclado y reglas para evitar mezclas de materiales. | 3 |
 | **EP04** | **Experiencia del Consumidor Final** | Trazabilidad para el cliente mediante escaneo de QR y visualización interactiva del Journey Map. | 2 |
-| **EP05** | **Landing Page y Marketing** | Interfaz web informativa sobre los servicios, beneficios y contacto de la plataforma. | 1 |
-| **EP06** | **Panel de Administración y Configuración** | Gestión interna, seguridad avanzada (2FA), auditoría de usuarios y roles del sistema. | 1 |
+| **EP05** | **Landing Page y Marketing** | Interfaz web informativa sobre los servicios, beneficios y contacto de la plataforma. | 3 |
+| **EP06** | **Panel de Administración y Configuración** | Gestión interna, seguridad avanzada (2FA), auditoría de usuarios y roles del sistema. | 3 |
 | **EP07** | **Requerimientos Técnicos y API** | Infraestructura, seguridad JWT, backups automáticos, servicios de archivos y monitoreo (Health Check). | 8 |
 
 ## 3.2. User Stories
