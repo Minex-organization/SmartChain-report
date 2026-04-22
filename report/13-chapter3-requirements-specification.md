@@ -57,5 +57,13 @@ En esta seccion se detallaran cada User Stories para divididas por las epicas es
 | **US27** | Backups DB | Como Developer, quiero copias de seguridad diarias automáticas.  | *Escenario 1 (Schedule): Dado las 3:00 AM, Cuando se active el cron, Entonces se genera un dump completo de la base de datos.* <br><br>*Escenario 2 (Storage): Dado el backup creado, Cuando termine, Entonces se sube a un servidor de seguridad externo diferente al de producción.* <br><br>*Escenario 3 (Retención): Dado que han pasado 30 días, Cuando el sistema limpie, Entonces borra los backups más viejos para liberar espacio.* <br><br>*Escenario 4 (Notificación): Dado el fallo del backup, Cuando ocurra un error de disco, Entonces envía un email urgente al equipo DevOps.*  | EP07  |
 
 ## 3.3 Impact Mapping
+### Impact Mapping: Operador / Logística Minera
+![Impact Map Operador Minero](../assets/img/Chapter-3/ImpactMapping-Operador.png)
+
+### Impact Mapping: Joyería
+![Impact Map Joyería](../assets/img/Chapter-3/ImpactMapping-Joyero.png)
+
+### Impact Mapping: Cliente Final
+![Impact Map Cliente Final](../assets/img/chapter-i/ImpactMapping-ClienteFinal.png)
 
 ## 3.4. Product Backlog
