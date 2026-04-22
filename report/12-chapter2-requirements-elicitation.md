@@ -258,7 +258,147 @@ Gracias a esta exploración, se identificaron áreas críticas de mejora, como l
 
 ### 2.3.2. User Task Matrix
 
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; text-align: center;">
+  
+  <!-- Encabezado principal -->
+  <tr style="background-color:#f2f2f2;">
+    <th rowspan="2">Task</th>
+    <th colspan="2">Martin Guerrero (Ingeniero de minas)</th>
+    <th colspan="2">Juan Nuñez (Joyero)</th>
+    <th colspan="2">Pilar Chavez (Consumidora final)</th>
+  </tr>
+
+  <!-- Sub encabezado -->
+  <tr style="background-color:#f2f2f2;">
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+
+  <!-- Filas -->
+  <tr>
+    <td>Verificar autenticidad del material</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Evaluar calidad/pureza del material</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Registrar información del material (origen, cantidad)</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Supervisar traslado del material</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Baja</td>
+  </tr>
+
+  <tr>
+    <td>Consultar información antes de comprar</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Confiar en proveedores / vendedores</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Gestionar inventario o stock</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Baja</td>
+  </tr>
+
+  <tr>
+    <td>Detectar errores o fallas</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Baja</td>
+    <td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Comunicar información</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Media</td>
+  </tr>
+
+  <tr>
+    <td>Evaluar precio vs calidad</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+
+  <tr>
+    <td>Verificar origen ético</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Alta</td>
+    <td>Alta</td>
+  </tr>
+</table>
+
 ### 2.3.3. User Journey Mapping
+**Segmento Objetivo Empresas mineras:**
+![User-JourneyMap-i](../assets/img/chapter-ii/JourneyMap-1.png)
+
+**Segmento Objetivo Joyerías:**
+![User-JourneyMap-ii](../assets/img/chapter-ii/JourneyMap-2.png)
+
+**Segmento Objetivo Consumidor final:**
+![User-JourneyMap-iii](../assets/img/chapter-ii/JourneyMap-3.png)
 
 ### 2.3.4. Empathy Mapping
 
