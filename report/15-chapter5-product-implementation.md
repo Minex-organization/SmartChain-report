@@ -70,9 +70,85 @@ En síntesis cada nueva funcionalidad se desarrollará en un feature Branch, mie
 //añadir capturas de pantallas
 
 ### 5.1.3. Source Code Style Guide & Conventions
-- HTML5
-- CSS
-- TYPESCRIPT
+
+Todos los identificadores (archivos, clases, métodos, variables, etc.) deben estar en inglés.
+
+1. HTML
+
+- Etiquetas y atributos en minúsculas  
+`<section id="mineral-tracking"></section>`  
+
+- Cerrar siempre los elementos  
+`<img src="sensor.jpg" alt="iot-sensor" />`
+
+- Comillas dobles para valores de atributos  
+`<button type="button" class="primary-button"></button>`
+
+- Incluir siempre alt (y width/height si es posible) en imágenes  
+`<img src="gold.png" alt="gold-mineral" width="64" height="64" />`
+
+- Sangría de 2 espacios  
+
+2. CSS
+
+- kebab-case para nombres de clases e IDs  
+ .mineral-card { … }  
+ #tracking-map { … }  
+
+- BEM opcional en componentes complejos  
+ .tracking-card__status--active { … }  
+
+- Agrupar o alfabetizar propiedades  
+
+- Omitir unidades en valores cero  
+ margin: 0;  
+
+- Separar bloques con una línea en blanco  
+
+3. JavaScript
+
+- camelCase para variables y funciones  
+ `function calculateMineralWeight() { }`
+
+- Usar `const` y `let` en lugar de `var`  
+
+- Evitar funciones largas (máx. 20–30 líneas)  
+
+- Manejo de errores con `try/catch`  
+
+- Uso de ES6+ (arrow functions, destructuring, etc.)  
+
+4. TypeScript (Angular)
+
+- Seguir la Angular Style Guide (https://angular.io/guide/styleguide)  
+- Convenciones de nombres:  
+ • Clases/Componentes/Servicios: PascalCase, p. ej. MineralTrackingService  
+ • Interfaces/Tipos: PascalCase, p. ej. MineralData  
+ • Variables/Métodos/Propiedades: camelCase, p. ej. getMineralData()  
+ • Constantes: UPPER_SNAKE_CASE, p. ej. MAX_TRACKING_DISTANCE  
+- Archivos en kebab-case, p. ej. mineral-tracking.component.ts  
+- Siempre usar punto y coma al final de cada línea  
+- Orden de imports: externos → módulos del proyecto → relativo  
+- Evitar any; preferir tipado estricto  
+- Lint y formateo automáticos con ESLint y Prettier  
+
+5. Java (Spring Boot)
+
+- Seguir Google Java Style Guide (https://google.github.io/styleguide/javaguide.html)  
+- Convenciones de nombres:  
+ • Clases/Enums: PascalCase, p. ej. MineralShipment  
+ • Métodos/Variables: camelCase, p. ej. calculateRoute()  
+ • Constantes: UPPER_SNAKE_CASE, p. ej. DEFAULT_TIMEOUT  
+- Sangría de 4 espacios (sin tabs)  
+- Llaves en la misma línea, p. ej.  
+ public class TrackingService {  
+ public void processData() {  
+ // …  
+ }  
+ }  
+- Una instrucción por línea  
+- Uso de anotaciones de Spring Boot: @RestController, @Service, @Repository  
+- Separación por capas: Controller, Service, Repository, Model  
 
 ### 5.1.4. Software Deployment Configuration
 - Creación de la Landing Page:
