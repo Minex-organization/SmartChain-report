@@ -63,6 +63,6 @@ En esta seccion se detallaran cada User Stories para divididas por las epicas es
 ![Impact Map Joyería](../assets/img/Chapter-3/ImpactMapping-Joyero.png)
 
 ### Impact Mapping: Cliente Final
-![Impact Map Cliente Final](../assets/img/chapter-i/ImpactMapping-ClienteFinal.png)
+![Impact Map Cliente Final](../assets/img/Chapter-3/ImpactMapping-ClienteFinal.png)
 
 ## 3.4. Product Backlog
