@@ -173,21 +173,139 @@ Todos los identificadores (archivos, clases, métodos, variables, etc.) deben es
 
 ### 5.2.1. Sprint 1
 
-#### 5.2.1.1. Sprint Planning 1
+### 5.2.1.1. Sprint Planning 1
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. El enfoque principal de este sprint es el desarrollo e implementación de la **Landing Page** del sistema de trazabilidad minera, la cual permitirá comunicar la propuesta de valor, beneficios y funcionalidades de la plataforma a los usuarios finales.
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+| Sprint # | Sprint 1 |
+|----------|---------|
+| Date | 2026 - 04 - 20 |
+| Time | 10:00 PM |
+| Location | Reunión virtual vía Discord |
+| Prepared by | Armestar Felipa, Adrian Andres |
+| Attendees (to planning meeting) | Armestar Felipa, Adrian Andres; Baldeon Vivar, Santiago Armando; Philco Mota, Katty Yolanda; Vergraray Calderon, Rose Almendra; Yi Torrejon, Ethan Raul |
+| Sprint n – 1 Review Summary | No existe sprint previo |
+| Sprint 1 Goal | Our focus is on designing and deploying the landing page of our traceability platform. We believe it will provide clarity about our solution and attract potential users. This will be confirmed when users can navigate and understand the platform through the landing page. |
+| Sprint 1 Velocity | 20 story points |
+| Sum of story points | 20 story points |
 
-#### 5.2.1.3. Sprint Backlog 1
+---
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+### 5.2.1.2. Aspect Leaders and Collaborators
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+En este sprint se busca completar la landing page del sistema, incluyendo su diseño visual, contenido informativo y despliegue. Para lograr una correcta organización del equipo, se ha definido la siguiente matriz de liderazgo y colaboración:
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+| Team Member                         | GitHub username | Diseño Landing Page | Desarrollo Frontend | Despliegue |
+|------------------------------------|-----------------|--------------------|---------------------|------------|
+| Armestar Felipa, Adrian Andres     | adrianAF        | L                  | C                   | C          |
+| Baldeon Vivar, Santiago Armando    | Santibal11      | C                  | L                   | C          |
+| Philco Mota, Katty Yolanda         | kattyPM         | C                  | C                   | L          |
+| Vergraray Calderon, Rose Almendra  | roseVC          | C                  | C                   | C          |
+| Yi Torrejon, Ethan Raul            | ethanYT         | C                  | C                   | C          |
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+---
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal del Sprint 1 es desarrollar una **Landing Page funcional** basada en la épica **EP05: Landing Page y Marketing**, específicamente en la historia de usuario **US17: Navegación Principal del Sitio**.
+
+![Sprint Backlog](assets/md-images/sprint1-backlog.png)
+
+| Sprint # | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (hours) | Assigned To | Status | Story Points |
+|----------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|--------------|
+| Sprint 1 | US17 | Navegación Principal del Sitio | T01 | Diseñar estructura de la landing | Definir secciones principales: hero, servicios, beneficios, contacto | 2 | Armestar Felipa | Done | 3 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T02 | Crear diseño UI/UX | Diseñar prototipo visual de la landing page | 3 | Baldeon Vivar | Done | 3 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T03 | Implementar header | Crear barra de navegación con menú y scroll | 2 | Yi Torrejon | Done | 2 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T04 | Implementar hero section | Sección principal con mensaje y CTA | 2 | Vergraray Calderon | Done | 2 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T05 | Implementar sección servicios | Mostrar funcionalidades clave del sistema | 2 | Armestar Felipa | Done | 2 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T06 | Implementar sección beneficios | Explicar ventajas del sistema | 2 | Philco Mota | Done | 2 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T07 | Implementar sección contacto | Formulario y datos de contacto | 2 | Baldeon Vivar | Done | 2 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T08 | Implementar diseño responsive | Adaptar a móviles y tablets | 3 | Yi Torrejon | Done | 2 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T09 | Configurar navegación scroll | Implementar navegación por anclas | 2 | Philco Mota | Done | 1 |
+| Sprint 1 | US17 | Navegación Principal del Sitio | T10 | Despliegue en la nube | Publicar la landing page | 2 | Vergraray Calderon | Done | 1 |
+
+---
+
+### 5.2.1.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|------------|--------|-----------|----------------|---------------------|--------------|
+| traceability-landing | feature/header | a12b34 | feat: add header component | Implementación del menú principal con navegación | 2026-04-21 |
+| traceability-landing | feature/hero | b45c67 | feat: hero section | Se agregó sección principal con CTA | 2026-04-21 |
+| traceability-landing | feature/services | c78d90 | feat: services section | Se implementaron servicios del sistema | 2026-04-22 |
+| traceability-landing | feature/benefits | d12e34 | feat: benefits section | Se añadieron beneficios del producto | 2026-04-22 |
+| traceability-landing | feature/contact | e56f78 | feat: contact section | Se creó formulario de contacto | 2026-04-22 |
+| traceability-landing | feature/responsive | f90g12 | style: responsive design | Adaptación a dispositivos móviles | 2026-04-23 |
+
+---
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se desarrolló completamente la Landing Page del sistema de trazabilidad minera. Esta permite a los usuarios comprender el propósito del sistema, sus beneficios y cómo funciona.
+
+**Secciones implementadas:**
+
+- Header  
+![header](assets/md-images/header.png)
+
+- Hero  
+![hero](assets/md-images/hero.png)
+
+- Servicios  
+![services](assets/md-images/services.png)
+
+- Beneficios  
+![benefits](assets/md-images/benefits.png)
+
+- Contacto  
+![contact](assets/md-images/contact.png)
+
+- Footer  
+![footer](assets/md-images/footer.png)
+
+---
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint no se desarrollaron servicios backend ni APIs, ya que el enfoque fue exclusivamente la implementación de la Landing Page. La documentación de servicios será abordada en los siguientes Sprints.
+
+---
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el despliegue de la Landing Page utilizando un servicio de hosting web.
+
+**Actividades realizadas:**
+- Configuración del repositorio en GitHub
+- Integración con plataforma de despliegue
+- Publicación automática al hacer push en main
+- Validación de acceso público
+
+**Evidencias:**
+![deploy1](assets/md-images/deploy1.png)  
+![deploy2](assets/md-images/deploy2.png)
+
+---
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint, el equipo trabajó de manera colaborativa en el desarrollo de la Landing Page.
+
+| Nombre | Actividad |
+|--------|----------|
+| Armestar Felipa | Diseño general y estructura |
+| Baldeon Vivar | UI/UX y desarrollo frontend |
+| Philco Mota | Sección beneficios y navegación |
+| Vergraray Calderon | Hero y despliegue |
+| Yi Torrejon | Header y responsive |
+
+**Evidencia de colaboración:**
+
+![contributions](assets/md-images/contributions-sprint1.png)
+
+**Repositorio:**
+- https://github.com/traceability-project/landing-page
+
+El equipo logró completar el Sprint cumpliendo todos los objetivos planteados y manteniendo una buena coordinación en el desarrollo.
 
 ## 5.3. Validation Interviews
 
