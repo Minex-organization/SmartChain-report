@@ -43,7 +43,7 @@
 ### 4.6.2. Software Architecture Context Diagram
 Para definir los límites de la solución SmartChain, se ha elaborado el diagrama de contexto siguiendo el modelo C4. Este diagrama permite visualizar cómo el sistema interactúa con los diversos actores (Mineras, Joyerías, Clientes Finales y Administradores) y con los servicios externos críticos como Google Maps API para la geolocalización, AWS S3 para el almacenamiento de evidencias inmutables y SendGrid para la gestión de notificaciones transaccionales.
 
-![Diagrama de Contexto de SmartChain](../asstes/img/Chapter-4/C4-Models/Context.png)
+![Diagrama de Contexto de SmartChain](../assets/img/Chapter-4/C4-Models/Context.png)
 **Explicación de las interacciones:**
 * **Servicios de Localización:** El sistema consume la API de Google Maps para validar las coordenadas GPS capturadas durante los traslados de material.
 * **Persistencia de Evidencias:** Se integra con AWS S3 para garantizar que las fotografías de los lotes y los certificados PDF se almacenen de forma segura y escalable.
