@@ -209,13 +209,26 @@
 
 ### 2.2.3. Análisis de entrevistas
 
-**Análisis Primer Segmento Empresas Mineras:** En 
+**Análisis Primer Segmento Empresas Mineras:** Tras el análisis de las entrevistas realizadas a tres profesionales del sector minero se evidencia un entorno operativo caracterizado por una alta dependencia de procesos manuales y una limitada integración tecnológica en el seguimiento del mineral. A pesar de pertenecer a distintos roles dentro del segmento, los tres coinciden en problemáticas relacionadas con la trazabilidad y el control de información.
+
+En términos de herramientas, el 100% de los entrevistados utiliza dispositivos móviles y aplicaciones como WhatsApp para la coordinación diaria lo que refleja una digitalización básica centrada en la comunicación, mas no en la automatización de procesos. Asimismo, el 100% depende de métodos manuales o digitales básicos, como escritos o plantillas de Excel, evidenciando la ausencia de sistemas integrados que permitan un monitoreo en tiempo real del traslado y procesamiento del mineral.
+
+Respecto a la percepción de fallas, se identifican problemas recurrentes en la precisión de datos y en la comunicación interna. Un entrevistado estima que aproximadamente el 40% de los proyectos puede fracasar debido a la falta de información adecuada, mientras que otros señalan que la falta de trazabilidad es común, llegando a generar retrasos de hasta una semana en el reporte de incidentes. Ellos consideran que estas deficiencias impactan directamente en la productividad afectando los ingresos de las operaciones.
+
+A pesar de estas limitaciones, el 100% de los entrevistados muestra una alta aceptación hacia soluciones tecnológicas, considerando que un sistema de rastreo desde la extracción sería altamente útil o incluso esencial.
 
 ![Chart 1](../assets/img/chapter-ii/chart-1.png)
 
 
-**Análisis Segundo Segmento Joyerías:** En conjunto, el segmento joyería 
-![Chart 3](../assets/img/chapter-ii/chart-3.png)
+**Análisis Segundo Segmento Joyerías:** Tras el análisis de las entrevistas realizadas a tres actores del sector joyería  se evidencia que el sector se sostiene principalmente en la confianza empírica, la experiencia y las relaciones con proveedores, más que en sistemas formales de trazabilidad o digitalización.
+
+En cuanto a la verificación de autenticidad, el 100% de los entrevistados depende de proveedores de confianza, complementando este proceso con distintos métodos técnicos. Mientras Yesiliany utiliza procedimientos más rigurosos como pruebas químicas con ácido nítrico o maquinaria especializada, Dante aplica verificaciones básicas visuales y Mauricio cuenta con un flujo estandarizado con apoyo de especialistas. Sin embargo, el 66% ha experimentado problemas con materiales falsos, ello que evidencia vulnerabilidades en la cadena de suministro.
+
+Respecto a la gestión de información, ninguno utiliza sistemas digitales avanzados para el registro de inventario o trazabilidad predominando el uso de registros manuales. Esta limitación impacta directamente en la confianza del cliente, ya que el 100% de los entrevistados reconoce que el interés por conocer el origen de las joyas es alto y la falta de información clara puede derivar en pérdida de ventas.
+
+Adicionalmente, el 100% realiza pruebas de autenticidad cuando el cliente aporta su propio material, lo que introduce complejidades técnicas como la merma del material durante la purificación. En general, se observa que la confianza no se basa únicamente en certificaciones, sino también en la transparencia, sinceridad y trato directo con el cliente, especialmente en decisiones de compra de alto valor.
+
+![Chart 3](../assets/img/chapter-ii/chart-2.png)
 
 
 **Análisis Tercer Segmento Consumidor Final :** En conjunto, los consumidores entrevistados presentan un comportamiento de compra poco frecuente, orientado principalmente a ocasiones específicas. El 100% prioriza factores como la calidad, durabilidad y precio, mientras que la marca tiene una relevancia baja en la decisión de compra.
@@ -226,7 +239,7 @@ En cuanto a la confianza en las marcas, el 67% presenta un nivel de confianza ba
 
 Por otro lado, el 100% de los entrevistados valora el origen ético de los productos y estaría dispuesto a pagar un costo adicional (moderado) por garantizar autenticidad y condiciones laborales justas. Asimismo, el 100% muestra interés en herramientas tecnológicas como códigos QR o aplicaciones, que permitan verificar la procedencia, pureza y legalidad del producto antes de la compra.
 
-![Chart 4](../assets/img/chapter-ii/chart-4.png)
+![Chart 3](../assets/img/chapter-ii/chart-3.png)
 ## 2.3. Needfinding
 
 Para llevar a cabo el proceso de needfinding en OpalTrace, se realizaron entrevistas en profundidad con usuarios pertenecientes a los segmentos objetivo, incluyendo consumidores finales, joyeros y profesionales del sector minero. Estas conversaciones se centraron en comprender sus hábitos, objetivos y principales frustraciones relacionadas con la autenticidad, trazabilidad y confianza en la comercialización de joyas y minerales.
@@ -234,6 +247,14 @@ Para llevar a cabo el proceso de needfinding en OpalTrace, se realizaron entrevi
 Gracias a esta exploración, se identificaron áreas críticas de mejora, como la falta de transparencia en el origen de los materiales, la baja confianza en los productos adquiridos y la limitada adopción de herramientas digitales en los procesos del sector minero. Asimismo, se evidenció la existencia de brechas tanto tecnológicas como informativas que afectan la toma de decisiones de los usuarios. Durante las entrevistas, surgieron patrones y necesidades recurrentes, como la importancia de contar con un sistema confiable que permita verificar la autenticidad, procedencia y valor real de los productos. De esta manera, se logra identificar una oportunidad clara para desarrollar una solución como OpalTrace, que facilite el acceso a información validada y mejore la confianza en la cadena de valor.
 
 ### 2.3.1. User Personas
+**Segmento Objetivo: Empresas mineras:**
+![User-Persona-i](../assets/img/chapter-ii/UserPersona-1.png)
+
+**Segmento Objetivo: Joyerías:**
+![User-Persona-ii](../assets/img/chapter-ii/UserPersona-2.png)
+
+**Segmento Objetivo: Consumidor final:**
+![User-Persona-iii](../assets/img/chapter-ii/UserPersona-3.png)
 
 ### 2.3.2. User Task Matrix
 
