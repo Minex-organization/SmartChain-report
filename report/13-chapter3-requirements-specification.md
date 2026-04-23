@@ -14,6 +14,8 @@ En esta sección se describen las Épicas identificadas para el sistema, las cua
 | **EP06** | Panel de Administración MINEX | Como administrador de MINEX, quiero gestionar y auditar las cuentas de empresas B2B (Mineras/Joyerías) para garantizar la seguridad y evitar fraudes en la red. |
 | **EP07** | Requerimientos Técnicos y API | Como desarrollador, quiero implementar la arquitectura backend, la seguridad y las integraciones con servicios externos (Cloud, Mapas, Correos) para soportar las operaciones de OpalTrace. |
 
+<div style="page-break-after: always"></div>
+
 ## 3.2. User Stories
 
 En esta seccion se detallaran cada User Stories para divididas por las epicas establecidas en la sección anterior:
@@ -39,7 +41,7 @@ En esta seccion se detallaran cada User Stories para divididas por las epicas es
 | **US15** | Sincronización automática | Como Operador Minero, quiero que los registros locales se envíen al servidor automáticamente al recuperar la señal. | *Escenario 1: Sincronización transparente.* <br><br>**Dado** la existencia de registros locales, <br>**Cuando** se detecte conexión HTTPS, <br>**Entonces** el sistema ejecutará la transferencia de datos al servidor. <br><br>*Escenario 2: Resolución de conflictos.* <br><br>**Dado** una transmisión de cola, <br>**Cuando** exista duplicidad de IDs, <br>**Entonces** el servidor validará el timestamp más reciente y descartará la petición redundante. | EP02 |
 | **US16** | Reporte de anomalías | Como Supervisor Minero, quiero registrar incidencias sobre un lote para alertar sobre discrepancias antes del transporte. | *Escenario 1: Bloqueo por alerta.* <br><br>**Dado** una inconsistencia física, <br>**Cuando** se emita el reporte, <br>**Entonces** el sistema bloqueará preventivamente el cambio de estado del lote. | EP02 |
 | **US17** | Generación de identificador QR | Como Encargado Logístico, quiero generar un código vinculado al lote para facilitar el rastreo en etapas posteriores. | *Escenario 1: Provisión de etiqueta.* <br><br>**Dado** un lote validado, <br>**Cuando** se solicite el etiquetado, <br>**Entonces** el sistema proveerá un recurso gráfico codificado con el ID único. | EP02 |
-| **EP03** | Procesamiento en Refinería y Logística | Como operario de refinería y logística, quiero controlar la cadena de custodia durante el transporte y registrar la validación y división de lotes al refinar el mineral. |
+| **EP03** | Procesamiento en Refinería y Logística | Como operario de refinería y logística, quiero controlar la cadena de custodia durante el transporte y registrar la validación y división de lotes al refinar el mineral. | | |
 | **US18** | Escaneo de entrega de custodia | Como Transportista, quiero validar la recepción de un lote para registrar el inicio de mi responsabilidad legal. | *Escenario 1: Cambio a 'En Tránsito'.* <br><br>**Dado** un lote asignado, <br>**Cuando** se procese el código, <br>**Entonces** el sistema actualizará el estado a 'En Tránsito'. <br><br>*Escenario 2: Captura de GPS.* <br><br>**Dado** el proceso de recepción, <br>**Cuando** se confirme la custodia, <br>**Entonces** el sistema registrará automáticamente las coordenadas de ubicación geográfica. | EP03 |
 | **US19** | Recepción en refinería | Como Operario de Refinería, quiero confirmar la llegada de la carga para habilitar el procesamiento del mineral. | *Escenario 1: Validación de llegada.* <br><br>**Dado** un lote "En Tránsito", <br>**Cuando** se procese el código en planta, <br>**Entonces** el sistema registrará la marca de tiempo y actualizará el estado a "En Planta". | EP03 |
 | **US20** | División de lotes (Split) | Como Operario de Refinería, quiero fragmentar un lote bruto en unidades menores para su distribución manteniendo la herencia. | *Escenario 1: Herencia de trazabilidad.* <br><br>**Dado** un lote refinado, <br>**Cuando** se procese la división, <br>**Entonces** el sistema creará registros hijos vinculados al ID original. <br><br>*Escenario 2: Validación de masa límite.* <br><br>**Dado** el fraccionamiento de lotes, <br>**Cuando** la sumatoria de peso de los hijos supere al lote padre, <br>**Entonces** el sistema bloqueará la división por inconsistencia física. | EP03 |
@@ -64,15 +66,24 @@ En esta seccion se detallaran cada User Stories para divididas por las epicas es
 | **US35** | Endpoint de Health Check | Como Desarrollador, quiero un endpoint de validación de estado para monitorear la operatividad del servidor. | *Escenario 1: Reporte de salud.* <br><br>**Dado** una solicitud al recurso `/health`, <br>**Cuando** los servicios estén activos, <br>**Entonces** el sistema retornará un estado 200 OK con el detalle de los componentes. <br><br>*Escenario 2: Fallo de dependencia.* <br><br>**Dado** la validación, <br>**Cuando** la base de datos no responda, <br>**Entonces** retornará un estado 503 Service Unavailable. | EP07 |
 | **US36** | Automatización de Backups | Como Desarrollador, quiero configurar copias de seguridad automáticas de la base de datos MySQL para prevenir pérdida de datos. | *Escenario 1: Respaldo programado.* <br><br>**Dado** la configuración de tareas, <br>**Cuando** se alcance el horario definido, <br>**Entonces** el sistema generará un dump de la base de datos y lo moverá al almacenamiento seguro. | EP07 |
 
+<div style="page-break-after: always"></div>
+
 ## 3.3 Impact Mapping
+
 ### Impact Mapping: Operador / Logística Minera
 ![Impact Map Operador Minero](../assets/img/Chapter-3/ImpactMapping-Operador.png)
+
+<div style="page-break-after: always"></div>
 
 ### Impact Mapping: Joyería
 ![Impact Map Joyería](../assets/img/Chapter-3/ImpactMapping-Joyero.png)
 
+<div style="page-break-after: always"></div>
+
 ### Impact Mapping: Cliente Final
 ![Impact Map Cliente Final](../assets/img/Chapter-3/ImpactMapping-Cliente.png)
+
+<div style="page-break-after: always"></div>
 
 ## 3.4. Product Backlog
 
@@ -114,3 +125,5 @@ En esta seccion se detallaran cada User Stories para divididas por las epicas es
 | 34 | US34 | Implementación de Rate Limiting | Como Desarrollador, quiero limitar peticiones concurrentes para evitar ataques DDoS. | Baja | 3 |
 | 35 | US35 | Endpoint de Health Check | Como Desarrollador, quiero un endpoint de validación para monitorear la operatividad del servidor. | Baja | 2 |
 | 36 | US36 | Automatización de Backups | Como Desarrollador, quiero configurar copias de seguridad de la base de datos MySQL. | Media | 3 |
+
+<div style="page-break-after: always"></div>
