@@ -77,9 +77,38 @@ Para visualizar el EventStorming de mejor manera recomendamos ingresar al siguie
 ### 4.6.4. Software Architecture Components Diagrams
 
 ## 4.7. Software Object-Oriented Design
+Una vez que logramos definir la arquitectura de contenedores y componentes, podemos iniciar con la Programación Orientada a Objetos (POO) para lograr consolidad un sistema escalable y de fácil mantenimiento.
 
+Para lograr esto de manera satisfactoria utilizaremos conceptos como abstracción para simplificar procesos complicados, o también herencia y polimorfismo para poder construir un sistema flexible que permita la reutilización de código.
+
+A continuación se presentaran los diagramas de clases de los respectivos bounded context.
 ### 4.7.1. Class Diagrams
+**Bounded Context: Identity & Access Management**
+![Diagrama de clases Identity](../assets/img/chapter-iv/class-diagram-identity.png)
 
+**Bounded Context: Mineral Extraction & Offline Ops**
+![Diagrama de clases Mineral](../assets/img/chapter-iv/class-diagram-mineral.png)
+
+**Bounded Context: Custody Chain & Logistics**
+![Diagrama de clases Custody](../assets/img/chapter-iv/class-diagram-custody.png)
+
+**Bounded Context: Refinery Processing**
+![Diagrama de clases Refinery](../assets/img/chapter-iv/class-diagram-refinery.png)
+
+**Bounded Context: Jewelry Inventory & Certification**
+![Diagrama de clases Jewelry](../assets/img/chapter-iv/class-diagram-jewelry.png)
+
+**Bounded Context: Consumer Traceability**
+![Diagrama de clases Consumer](../assets/img/chapter-iv/class-diagram-consumer.png)
+
+**Bounded Context:  Administration & Audit**
+![Diagrama de clases Administration](../assets/img/chapter-iv/class-diagram-administration.png)
+
+**Bounded Context: Reporting & Analytics**
+![Diagrama de clases Reporting](../assets/img/chapter-iv/class-diagram-reporting.png)
+
+**Bounded Context: Subscriptions & Billing**
+![Diagrama de clases Subscriptions](../assets/img/chapter-iv/class-diagram-subscriptions.png)
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
