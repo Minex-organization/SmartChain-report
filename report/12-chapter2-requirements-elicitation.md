@@ -87,7 +87,7 @@
 | Edad | 42 años |
 | Distrito | Huaura |
 | Ocupación | Ingeniero metalurgista |
-| Timming inicio | |
+| Timming inicio |00:00:00 - 00:16:39 |
 | Duración | 17 minutos y 08 segundos |
 | URL | |
 | Screenshot | ![Screenshot Efraín](../assets/img/chapter-ii/interview-Efraín.jpeg) |
@@ -98,10 +98,10 @@
 | Segmento: Empresas Mineras | Entrevista #2 |
 | --- | --- |
 | Nombres y Apellidos | Max Alonso Yapo Figueroa|
-| Edad | 31|
+| Edad | 31 años|
 | Distrito | Arequipa (Cercado)|
 | Ocupación | Ingeniero metalurgista |
-| Timming inicio | |
+| Timming inicio |00:16:39 - 00:23:09|
 | Duración | 6 minutos y 27 segundos|
 | URL | |
 | Screenshot | ![Screenshot Max](../assets/img/chapter-ii/interview-Max.jpg)|
@@ -115,7 +115,7 @@
 | Edad | 34 años |
 | Distrito | Ate - Lima |
 | Ocupación | Ingeniero de minas (Analista de control de proyectos mineros) |
-| Timming inicio |  |
+| Timming inicio |00:23:09 - 00:32:02  |
 | Duración | 8 minutos y 52 segundos |
 | URL | |
 | Screenshot | ![Screenshot Rick](../assets/img/chapter-ii/interview-Rick.png) |
@@ -129,7 +129,7 @@
 | Edad | 21 años |
 | Distrito | Surquillo |
 | Ocupación | Secretaria de Joyería |
-| Timming inicio | |
+| Timming inicio |00:32:02 - 00:36:51 |
 | Duración | 4 minutos y 50 segundos|
 | URL | |
 | Screenshot | ![Screenshot Yesiliany](../assets/img/chapter-ii/interview-Yesiliany.png)|
@@ -139,11 +139,11 @@
 
 | Segmento: Joyerías | Entrevista #2 |
 | --- | --- |
-| Nombres y Apellidos | Dante |
+| Nombres y Apellidos | Dante Jhosué Javier Reyes |
 | Edad |23 años |
-| Distrito | |
+| Distrito | Santiago de Surco |
 | Ocupación | Gestiona negocio de joyería |
-| Timming inicio | |
+| Timming inicio |00:36:51 - 00:40:24 |
 | Duración | 03 minutos y 03 segundos |
 | URL | |
 | Screenshot | ![Screenshot Dante](../assets/img/chapter-ii/interview-Dante.png)|
@@ -153,11 +153,11 @@
 
 | Segmento: Joyerías | Entrevista #3 |
 | --- | --- |
-| Nombres y Apellidos | Mauticio Olera|
-| Edad | |
-| Distrito | |
+| Nombres y Apellidos | Mauricio Julio Perez Lopez|
+| Edad | 23 años |
+| Distrito | San Borja |
 | Ocupación | Especialista en comercialización de joyas |
-| Timming inicio | |
+| Timming inicio | 00:40:24 - 00:44:39 |
 | Duración | 04 minutos y 15 segundos |
 | URL | |
 | Screenshot | ![Screenshot Mauricio](../assets/img/chapter-ii/interview-Mauricio-Olera.png)|
@@ -171,7 +171,7 @@
 | Edad | 19 años |
 | Distrito | La Molina |
 | Ocupación | Estudiante universitaria |
-| Timming inicio | |
+| Timming inicio | 00:44:39 - 00:49:24|
 | Duración | 4 minutos y 44 segundos |
 | URL | |
 | Screenshot | ![Screenshot Carla](../assets/img/chapter-ii/interview-Carla.png) |
@@ -185,7 +185,7 @@
 | Edad | 19 años |
 | Distrito | Jesús María |
 | Ocupación | Estudiante|
-| Timming inicio | |
+| Timming inicio |00:49:24 - 01:00:58 |
 | Duración |11 minutos y 35 segundos |
 | URL | |
 | Screenshot | ![Screenshot Mauricio](../assets/img/chapter-ii/interview-Mauricio.png)|
@@ -199,7 +199,7 @@
 | Edad | 20 años |
 | Distrito | Comas |
 | Ocupación | Estudiante |
-| Timming inicio | |
+| Timming inicio | 01:00:58 - 01:10:42|
 | Duración | 09 minutos y 43 segundos|
 | URL | |
 | Screenshot | ![Screenshot Oliver](../assets/img/chapter-ii/interview-Oliver.png)|
@@ -401,6 +401,14 @@ Gracias a esta exploración, se identificaron áreas críticas de mejora, como l
 ![User-JourneyMap-iii](../assets/img/chapter-ii/JourneyMap-3.png)
 
 ### 2.3.4. Empathy Mapping
+**Segmento Objetivo Empresas mineras:**
+![EmpathyMap-i](../assets/img/chapter-ii/EmpathyMap-1.png)
+
+**Segmento Objetivo Joyerías:**
+![EmpathyMap-ii](../assets/img/chapter-ii/EmpathyMap-2.png)
+
+**Segmento Objetivo Consumidor final:**
+![EmpathyMap-iii](../assets/img/chapter-ii/EmpathyMap-3.png)
 
 ## 2.4. Big Picture EventStorming
 
