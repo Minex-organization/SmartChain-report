@@ -356,6 +356,7 @@ A pesar de estas limitaciones, el 100% de los entrevistados muestra una alta ace
 
 ![Chart 1](../assets/img/chapter-ii/chart-1.png)
 
+<div style="page-break-after: always"></div>
 
 **Análisis Segundo Segmento Joyerías:** Tras el análisis de las entrevistas realizadas a tres actores del sector joyería  se evidencia que el sector se sostiene principalmente en la confianza empírica, la experiencia y las relaciones con proveedores, más que en sistemas formales de trazabilidad o digitalización.
 
@@ -367,6 +368,7 @@ Adicionalmente, el 100% realiza pruebas de autenticidad cuando el cliente aporta
 
 ![Chart 3](../assets/img/chapter-ii/chart-2.png)
 
+<div style="page-break-after: always"></div>
 
 **Análisis Tercer Segmento Consumidor Final :** En conjunto, los consumidores entrevistados presentan un comportamiento de compra poco frecuente, orientado principalmente a ocasiones específicas. El 100% prioriza factores como la calidad, durabilidad y precio, mientras que la marca tiene una relevancia baja en la decisión de compra.
 
@@ -377,21 +379,33 @@ En cuanto a la confianza en las marcas, el 67% presenta un nivel de confianza ba
 Por otro lado, el 100% de los entrevistados valora el origen ético de los productos y estaría dispuesto a pagar un costo adicional (moderado) por garantizar autenticidad y condiciones laborales justas. Asimismo, el 100% muestra interés en herramientas tecnológicas como códigos QR o aplicaciones, que permitan verificar la procedencia, pureza y legalidad del producto antes de la compra.
 
 ![Chart 3](../assets/img/chapter-ii/chart-3.png)
+
+<div style="page-break-after: always"></div>
+
 ## 2.3. Needfinding
 
 Para llevar a cabo el proceso de needfinding en OpalTrace, se realizaron entrevistas en profundidad con usuarios pertenecientes a los segmentos objetivo, incluyendo consumidores finales, joyeros y profesionales del sector minero. Estas conversaciones se centraron en comprender sus hábitos, objetivos y principales frustraciones relacionadas con la autenticidad, trazabilidad y confianza en la comercialización de joyas y minerales.
 
 Gracias a esta exploración, se identificaron áreas críticas de mejora, como la falta de transparencia en el origen de los materiales, la baja confianza en los productos adquiridos y la limitada adopción de herramientas digitales en los procesos del sector minero. Asimismo, se evidenció la existencia de brechas tanto tecnológicas como informativas que afectan la toma de decisiones de los usuarios. Durante las entrevistas, surgieron patrones y necesidades recurrentes, como la importancia de contar con un sistema confiable que permita verificar la autenticidad, procedencia y valor real de los productos. De esta manera, se logra identificar una oportunidad clara para desarrollar una solución como OpalTrace, que facilite el acceso a información validada y mejore la confianza en la cadena de valor.
 
+<div style="page-break-after: always"></div>
+
 ### 2.3.1. User Personas
+
 **Segmento Objetivo: Empresas mineras:**
 ![User-Persona-i](../assets/img/chapter-ii/UserPersona-1.png)
+
+<div style="page-break-after: always"></div>
 
 **Segmento Objetivo: Joyerías:**
 ![User-Persona-ii](../assets/img/chapter-ii/UserPersona-2.png)
 
+<div style="page-break-after: always"></div>
+
 **Segmento Objetivo: Consumidor final:**
 ![User-Persona-iii](../assets/img/chapter-ii/UserPersona-3.png)
+
+<div style="page-break-after: always"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -527,25 +541,41 @@ Gracias a esta exploración, se identificaron áreas críticas de mejora, como l
   </tr>
 </table>
 
+<div style="page-break-after: always"></div>
+
 ### 2.3.3. User Journey Mapping
+
 **Segmento Objetivo Empresas mineras:**
 ![User-JourneyMap-i](../assets/img/chapter-ii/JourneyMap-1.png)
+
+<div style="page-break-after: always"></div>
 
 **Segmento Objetivo Joyerías:**
 ![User-JourneyMap-ii](../assets/img/chapter-ii/JourneyMap-2.png)
 
+<div style="page-break-after: always"></div>
+
 **Segmento Objetivo Consumidor final:**
 ![User-JourneyMap-iii](../assets/img/chapter-ii/JourneyMap-3.png)
 
+<div style="page-break-after: always"></div>
+
 ### 2.3.4. Empathy Mapping
+
 **Segmento Objetivo Empresas mineras:**
 ![EmpathyMap-i](../assets/img/chapter-ii/EmpathyMap-1.png)
+
+<div style="page-break-after: always"></div>
 
 **Segmento Objetivo Joyerías:**
 ![EmpathyMap-ii](../assets/img/chapter-ii/EmpathyMap-2.png)
 
+<div style="page-break-after: always"></div>
+
 **Segmento Objetivo Consumidor final:**
 ![EmpathyMap-iii](../assets/img/chapter-ii/EmpathyMap-3.png)
+
+<div style="page-break-after: always"></div>
 
 ## 2.4. Big Picture Event Storming
 
@@ -659,7 +689,7 @@ Como resultado de la dinámica, se obtuvo:
 
 <div style="page-break-after: always"></div>
 
-![Event Storming Minex Organization](assets/img/event-storming-minex-organization.png)
+![Event Storming Minex Organization](../assets/img/chapter-ii/event-storming-minex-organization.png)
 
 <div style="page-break-after: always"></div>
 
