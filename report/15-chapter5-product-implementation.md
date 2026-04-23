@@ -4,14 +4,21 @@
 
 ### 5.1.1. Software Development Environment Configuration
 
-**-Project Management:**
-1. Herramienta: Trello
+Aquí se especifica el catálogo de herramientas digitales escogidas para la construcción de OpalTrace. La selección de cada recurso responde a la necesidad de potenciar etapas puntuales del ciclo de vida, fomentando la integración técnica y una dinámica de trabajo fluida entre los integrantes del grupo de desarrollo.
+
+<u>**Project Management:**</u>
+
+Con el objetivo de centralizar la supervisión de actividades y garantizar la alineación constante de los integrantes, se integraron plataformas que facilitan una planificación dinámica y un monitoreo detallado del trabajo pendiente.
+
+- **Trello:**
 Propósito: Gestión de tareas, planificación de sprints y seguimiento del progreso del equipo mediante tableros Kanban. 
 
-**-Requirements Management:**
-1. Herramienta: UXPressia
+<u>**Requirements Management:**</u>
+
+- **Figma:**
 Propósito: Creación de artefactos de needfinding como User Personas, User Journey Maps y Empathy Maps para comprender y analizar las necesidades del usuario.
-2. Herramienta: Miro
+
+- Herramienta: Miro
 Propósito: Desarrollo de Event Storming (Big Picture y Process Level) para el modelado de procesos y alcance del sistema.
 
 **-Product UX/UI Design:**
@@ -173,24 +180,64 @@ Todos los identificadores (archivos, clases, métodos, variables, etc.) deben es
 
 ### 5.2.1. Sprint 1
 
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
+
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. El enfoque principal de este sprint es el desarrollo e implementación de la **Landing Page** del sistema de trazabilidad minera, la cual permitirá comunicar la propuesta de valor, beneficios y funcionalidades de la plataforma a los usuarios finales.
 
-| Sprint # | Sprint 1 |
-|----------|---------|
-| Date | 2026 - 04 - 20 |
-| Time | 10:00 PM |
-| Location | Reunión virtual vía Discord |
-| Prepared by | Armestar Felipa, Adrian Andres |
-| Attendees (to planning meeting) | Armestar Felipa, Adrian Andres; Baldeon Vivar, Santiago Armando; Philco Mota, Katty Yolanda; Vergraray Calderon, Rose Almendra; Yi Torrejon, Ethan Raul |
-| Sprint n – 1 Review Summary | No existe sprint previo |
-| Sprint 1 Goal | Our focus is on designing and deploying the landing page of our traceability platform. We believe it will provide clarity about our solution and attract potential users. This will be confirmed when users can navigate and understand the platform through the landing page. |
-| Sprint 1 Velocity | 20 story points |
-| Sum of story points | 20 story points |
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="2">Sprint 1</th>
+  </tr>
+  <tr>
+    <th colspan="4">Sprint Planning Background</th>
+  </tr>
+  <tr>
+    <td colspan="2">Date</td>
+    <td colspan="2">2026-04-13</td>
+  </tr>
+  <tr>
+    <td colspan="2">Time</td>
+    <td colspan="2">10:00 PM (GMT-5)</td>
+  </tr>
+   <tr>
+    <td colspan="2">Location</td>
+    <td colspan="2">Reunión virtual vía Discord</td>
+  </tr>
+  <tr>
+    <td colspan="2">Prepared By</td>
+    <td colspan="2">Vergaray Calderon, Rose Almendra</td>
+  </tr>
+  <tr>
+    <td colspan="2">Attendees (to planning meeting)</td>
+    <td colspan="2">Armestar Felipa, Adrian Andres; Baldeon Vivar, Santiago Armando; Philco Mota, Katty Yolanda; Vergraray Calderon, Rose Almendra; Yi Torrejon, Ethan Raul</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint n – 1 Review Summary</th>
+    <td colspan="2">No aplica. El Sprint 1 es el primero dentro de la cadencia del proyecto OpalTrace. No existe sprint previo.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint n – 1 Review Retrospective</td>
+    <td colspan="2">No aplica.</td>
+  </tr>
+  <tr>
+    <th colspan="4">Sprint Goal & User Stories</th>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint 1 Goal</td>
+    <td colspan="2">Our focus is on designing and deploying a fully functional for the OpalTrace traceability platform in both English and Spanish. We believe it will provide clarity about our solution and attract potential users. This will be confirmed when users can navigate and understand the platform through the landing page.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint 1 Velocity</td>
+    <td colspan="2">26 Story Points</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sum of story points</td>
+    <td colspan="2">26 Story Points</td>
+  </tr>
+</table>  
 
----
-
-### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
 En este sprint se busca completar la landing page del sistema, incluyendo su diseño visual, contenido informativo y despliegue. Para lograr una correcta organización del equipo, se ha definido la siguiente matriz de liderazgo y colaboración:
 
@@ -202,13 +249,11 @@ En este sprint se busca completar la landing page del sistema, incluyendo su dis
 | Vergraray Calderon, Rose Almendra  | roseVC          | C                  | C                   | C          |
 | Yi Torrejon, Ethan Raul            | ethanYT         | C                  | C                   | C          |
 
----
+#### 5.2.1.3. Sprint Backlog 1
 
-### 5.2.1.3. Sprint Backlog 1
+El objetivo principal del Sprint 1 es desarrollar el sitio web estático (Landing Page) de OpalTrace completamente funcional, accesible y desplegado. Los User Stories de este Sprint pertenecen a la Epic **EP01: Portal Informativo (Landing Pagge)**, específicamente en la historia de usuario **US17: Navegación Principal del Sitio**.
 
-El objetivo principal del Sprint 1 es desarrollar una **Landing Page funcional** basada en la épica **EP05: Landing Page y Marketing**, específicamente en la historia de usuario **US17: Navegación Principal del Sitio**.
-
-![Sprint Backlog](assets/md-images/sprint1-backlog.png)
+![Sprint Backlog](../assets/img/md-images/sprint1-backlog.png)
 
 | Sprint # | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (hours) | Assigned To | Status | Story Points |
 |----------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|--------------|
@@ -306,13 +351,3 @@ Durante el Sprint, el equipo trabajó de manera colaborativa en el desarrollo de
 - https://github.com/traceability-project/landing-page
 
 El equipo logró completar el Sprint cumpliendo todos los objetivos planteados y manteniendo una buena coordinación en el desarrollo.
-
-## 5.3. Validation Interviews
-
-### 5.3.1. Diseño de Entrevistas
-
-### 5.3.2. Registro de Entrevistas
-
-### 5.3.3. Evaluaciones según heurísticas
-
-## 5.4. Video About-the-Product
