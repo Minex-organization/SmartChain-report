@@ -582,8 +582,38 @@ El sistema de navegación guía al usuario a través de procesos complejos con e
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
+OpalTrace utiliza el enfoque de Domain-Driven Design (DDD) con el fin de facilitar la colaboración entre developers y expertos en el sector. Para esto, el sistema utiliza una organización entre 9 Bounded Context independientes de manera que logramos separar claramente las responsabilidades. Con esto también resaltamos las funcionalidades clave para hacer del proyecto altamente escalable de manera que se pueda incrementar la eficiencia de  procesos como el mantenimiento o la escalación. 
+
+A continuación se muestran y describen los Bounded Context que forman la solución:
+| Bounded Context | Descripción | Módulos incluidos |
+| :--- | :--- | :--- |
+| **Identity & Access Management** | Autenticación, autorización y gestión de cuentas por rol (RBAC). | Identity & Access Management|
+| **Mineral Extraction & Offline Ops** | Registro de lotes, operación offline y anomalías en campo. | Extracción Minera y Operaciones Offline|
+| **Custody Chain & Logistics** | Transferencia de responsabilidad y transporte de lotes. | Logística y Cadena de Custodia |
+| **Refinery Processing** | Procesamiento, división de lotes y asignación a joyerías. | Procesamiento en Refinería|
+| **Jewelry Inventory & Certification** | Inventario ético, certificación y emisión de documentos. | Inventario de Joyería y Certificación|
+| **Consumer Experience** | Verificación pública del origen de joyas por consumidores. | Experiencia del Consumidor Final|
+| **Administration & Audit** | Supervisión global, roles y configuración del sistema. | Panel de Administración|
+| **Reporting & Analytics** | Dashboards, reportes de merma, ESG y exportaciones. | Reportes y Analytics |
+| **Subscriptions & Billing** | Gestión de planes, acceso escalonado a funcionalidades y facturación. | Subscriptions & Billing |
 
 ### 4.6.1. Design-Level EventStorming
+Utilizando la técnica de Event Storming a nivel de diseño, hemos logrado identificar los eventos de dominio y los comandos quienes cargan con la lógica de negocio en cada Bounded Context.
+
+A continuación, se muestra la matriz de interdependencias entre los módulos:
+| Origen (Evento) | Destino (Comando) | Descripción |
+| :--- | :--- | :--- |
+| **Custody Chain & Logistics:** Alert Generated | **Reporting & Analytics:** Generate weight loss report | Genera un reporte de perdida de peso cuando se genere una alerta. |
+| **Refinery Processing:** Child lot destination set| **Jewelry Inventory & Certification:** Register Child lot in Inventory | El proceso en el que las joyerías reciben el lote de mineral. |
+| **Jewelry Inventory & Certification:** Certificate Saved | **Consumer Traceability:** View certificate | Permite al consumidor ver el certificado generado por los joyeros. |
+| **Mineral Extraction & Offline Ops:** Incident reported | **Reporting & Analytics:** View Production dashboard | Permite al supervisor revisar los incidentes que suceden durante el proceso de mineria. |
+| **Administration & Audit:** User Plan assigned | **Subscriptions & Billing:** Assign features | El administrador habilita al usuario la capacidad de usar features detrás de los planes de paga. |
+
+**EventStorming**
+![EventStorming](../assets/img/chapter-iv/event-storming-opaltrace.jpg)
+
+Para visualizar el EventStorming de mejor manera recomendamos ingresar al siguiente link:
+[Visualizar EventStorming en Miro](https://miro.com/welcomeonboard/dnFtM2FkSy9ZaHNPQjdWa1Z5eUZMTHlUZitMZGlQdjlTMjBKR0ZoNG5iKzJoRER5SUs0V1pGVVoyUFN4N3hrNkh4WmVjeTMyWGZ1TkZQT2NYL0tYK3pDUlh2ZktLbGhuM1NwWlMvSTRCYk1oZm9yNVJzcHJDb1Eyc0dVNDZYcWtBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=896920918108)
 
 ### 4.6.2. Software Architecture Context Diagram
 El diagrama de contexto establece los límites de la plataforma **OpalTrace** y su interacción con los diferentes perfiles de usuario y sistemas externos críticos para el negocio. 
@@ -623,8 +653,38 @@ Realizando una inspección detallada dentro del *Logistics Bounded Context*, se 
 
 *Figura 4: Vista interna del Logistics Bounded Context basado en arquitectura de capas.*
 
-### 4.7.1. Class Diagrams
+Para lograr esto de manera satisfactoria utilizaremos conceptos como abstracción para simplificar procesos complicados, o también herencia y polimorfismo para poder construir un sistema flexible que permita la reutilización de código.
 
+## 4.7. Software Object-Oriented Design
+
+A continuación se presentaran los diagramas de clases de los respectivos bounded context.
+### 4.7.1. Class Diagrams
+**Bounded Context: Identity & Access Management**
+![Diagrama de clases Identity](../assets/img/chapter-iv/class-diagram-identity.png)
+
+**Bounded Context: Mineral Extraction & Offline Ops**
+![Diagrama de clases Mineral](../assets/img/chapter-iv/class-diagram-mineral.png)
+
+**Bounded Context: Custody Chain & Logistics**
+![Diagrama de clases Custody](../assets/img/chapter-iv/class-diagram-custody.png)
+
+**Bounded Context: Refinery Processing**
+![Diagrama de clases Refinery](../assets/img/chapter-iv/class-diagram-refinery.png)
+
+**Bounded Context: Jewelry Inventory & Certification**
+![Diagrama de clases Jewelry](../assets/img/chapter-iv/class-diagram-jewelry.png)
+
+**Bounded Context: Consumer Traceability**
+![Diagrama de clases Consumer](../assets/img/chapter-iv/class-diagram-consumer.png)
+
+**Bounded Context:  Administration & Audit**
+![Diagrama de clases Administration](../assets/img/chapter-iv/class-diagram-administration.png)
+
+**Bounded Context: Reporting & Analytics**
+![Diagrama de clases Reporting](../assets/img/chapter-iv/class-diagram-reporting.png)
+
+**Bounded Context: Subscriptions & Billing**
+![Diagrama de clases Subscriptions](../assets/img/chapter-iv/class-diagram-subscriptions.png)
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
