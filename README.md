@@ -13,7 +13,7 @@
 
 ### ***Startup:*** Minex
 
-### ***Producto:*** SmartChain
+### ***Producto:*** OpalTrace
 
 
 
