@@ -2281,3 +2281,7 @@ El equipo logró completar el Sprint cumpliendo todos los objetivos planteados y
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
+
+# 6. Anexos 
+- **Link de despliegue:** [https://minex-organization.github.io/OpalTrace-landing/index.html#como](https://minex-organization.github.io/OpalTrace-landing/index.html#como)
+- **Video Expo:** [https://drive.google.com/drive/folders/1ywLIO46lfjJjG1OH0Jw0mf-cj1z7GBVx](https://drive.google.com/drive/folders/1ywLIO46lfjJjG1OH0Jw0mf-cj1z7GBVx)
