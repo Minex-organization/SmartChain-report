@@ -83,3 +83,6 @@ Realizando una inspección detallada dentro del *Logistics Bounded Context*, se 
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
+![Database Diagrams 1](../assets/img/Chapter-4/Database1.png)
+![Database Diagrams 2](../assets/img/Chapter-4/Database2.png)
+![Database Diagrams 3](../assets/img/Chapter-4/Database3.png)
