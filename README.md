@@ -1,2 +1,2 @@
-# SmartChain-report
-SmartChain project report.
+# OpalTrace-report
+OpalTrace project report.
