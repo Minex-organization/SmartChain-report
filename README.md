@@ -27,14 +27,24 @@
 | Vergraray Calderon, Rose Almendra | U20241D159 |
 | Yi Torrejon, Ethan Raul | U202313434 |
 
-Abril, 2026
+Mayo, 2026
 
 <div style="page-break-after: always"></div>
 
 ## REGISTRO DE VERSIONES DEL INFORME
 
 | Versión | Fecha | Autor | Descripción de modificación |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :--- |
+| 0.1.0 | 04/23/2026 | Rose Vergaray| Commit inicial del informe; estructura base del repositorio, organización de carpetas y capítulos principales (`develop`) |
+| 0.2.0 | 04/23/2026 | Ethan Yi | Creación de la rama `feature/chapter-3-requirements-specification` e incorporación del Capítulo III: Requirements Specification, User Stories e Impact Mapping |
+| 0.3.0 | 04/23/2026 | Santiago Baldeon | Desarrollo del análisis de competidores, Big Picture EventStorming y contextualización del dominio (`feature/chapter-ii-competitors`, `feature/chapter-ii-big-picture-event-storming`) |
+| 0.4.0 | 04/23/2026 | Rose Vergaray | Integración de avances de Product Design, Information Architecture  (`feature/chapter-iv-product-desing`) |
+| 0.5.0 | 04/23/2026 | Adrián Armestar | Creación de la rama `feature/chapter-iv-class-diagrams` e incorporación de diagramas de clase y modelado orientado a objetos |
+| 0.6.0 | 04/23/2026 | Santiago Baldeon | Incorporación de anexos y consolidación de capítulos para la entrega del AV1 (`develop`) |
+| 0.7.0 | 04/08/2026 | Ethan Yi | Inserción de datos en la base de datos (`feature/chapter-iv-diagrams`) |
+| 0.8.0 | 05/10/2026 | Katty Philco | Actualización de diagramas C4 aplicando bounded contexts y mejoras en la arquitectura del sistema (`feature/chapter-iv-diagrams`) y la incorporación de insights y mejoras en el Capítulo II (`develop`) |
+| 0.9.0 | 05/12/2026 | Katty Philco / Adrián Armestar | Actualización de diagramas de clases y base de datos para el refinamiento del modelo orientado al dominio (`feature/chapter-iv-diagrams`) |
+| 1.0.0 | 05/12/2026 | Todos los integrantes | Consolidación final del informe, integración de diagramas, arquitectura, requerimientos y desarrollo frontend correspondiente al TB1 (`develop`) |
 
 <div style="page-break-after: always"></div>
 
