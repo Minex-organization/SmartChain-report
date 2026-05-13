@@ -9,13 +9,13 @@
 **Ciclo:** 5  
 **Docente:** Ivan Robles Fernández  
 
-## **"Informe de trabajo: AV1"**
+## **"Informe de trabajo: TB1"**
 
 ### ***Startup:*** Minex
 
 ### ***Producto:*** OpalTrace
 
-
+![Logo OpalTace](assets/img/logoOpalTrace.png)
 
 ***Relación de integrantes:***
 
@@ -40,15 +40,24 @@ Mayo, 2026
 | 0.3.0 | 04/23/2026 | Santiago Baldeon | Desarrollo del análisis de competidores, Big Picture EventStorming y contextualización del dominio (`feature/chapter-ii-competitors`, `feature/chapter-ii-big-picture-event-storming`) |
 | 0.4.0 | 04/23/2026 | Rose Vergaray | Integración de avances de Product Design, Information Architecture  (`feature/chapter-iv-product-desing`) |
 | 0.5.0 | 04/23/2026 | Adrián Armestar | Creación de la rama `feature/chapter-iv-class-diagrams` e incorporación de diagramas de clase y modelado orientado a objetos |
-| 0.6.0 | 04/23/2026 | Santiago Baldeon | Incorporación de anexos y consolidación de capítulos para la entrega del AV1 (`develop`) |
-| 0.7.0 | 04/08/2026 | Ethan Yi | Inserción de datos en la base de datos (`feature/chapter-iv-diagrams`) |
-| 0.8.0 | 05/10/2026 | Katty Philco | Actualización de diagramas C4 aplicando bounded contexts y mejoras en la arquitectura del sistema (`feature/chapter-iv-diagrams`) y la incorporación de insights y mejoras en el Capítulo II (`develop`) |
-| 0.9.0 | 05/12/2026 | Katty Philco / Adrián Armestar | Actualización de diagramas de clases y base de datos para el refinamiento del modelo orientado al dominio (`feature/chapter-iv-diagrams`) |
-| 1.0.0 | 05/12/2026 | Todos los integrantes | Consolidación final del informe, integración de diagramas, arquitectura, requerimientos y desarrollo frontend correspondiente al TB1 (`develop`) |
+| 0.6.0 | 04/23/2026 | Ethan Yi | Inserción de datos en la base de datos (`feature/chapter-iv-diagrams`) |
+| 0.7.0 | 04/23/2026 | Santiago Baldeon | Incorporación de anexos y consolidación de capítulos para la entrega del AV1 (`develop`) |
+| 1.0.0| 04/23/2025 | Armestar Felipa, Adrian Andres<br>Baldeon Vivar, Santiago Armando<br>Philco Mota, Katty Yolanda<br>Vergaray Calderon, Rose Almendra<br>Yi Torrejon, Ethan Raul | Se agregó: <br>Capitulo I<br>Capitulo II<br>Capitulo III<br>Capitulo IV<br>Capitulo V<br>5.2.1. Sprint 1 |
+| 1.8.0 | 05/10/2026 | Katty Philco | Actualización de diagramas C4 aplicando bounded contexts y mejoras en la arquitectura del sistema (`feature/chapter-iv-diagrams`) y la incorporación de insights y mejoras en el Capítulo II (`develop`) |
+| 1.9.0 | 05/12/2026 | Armestar Felipa, Adrian Andres<br>Philco Mota, Katty Yolanda | Actualización de diagramas de clases y base de datos para el refinamiento del modelo orientado al dominio (`feature/chapter-iv-diagrams`) |
+| 2.0.0 | 05/12/2026 | Armestar Felipa, Adrian Andres<br>Baldeon Vivar, Santiago Armando<br>Philco Mota, Katty Yolanda<br>Vergaray Calderon, Rose Almendra<br>Yi Torrejon, Ethan Raul | Consolidación final del informe, integración de diagramas, arquitectura, requerimientos y desarrollo frontend correspondiente al TB1 (`develop`)<br>Capitulo V<br>5.2.2. Sprint 2 |
 
 <div style="page-break-after: always"></div>
 
 ## PROJECT REPORT COLLABORATION INSIGHTS
+
+El repositorio del Project Report se encuentra disponible en la organización de GitHub del equipo en la siguiente URL: 
+
+[Repositorio Reporte](https://github.com/Minex-organization/OpalTrace-report)
+
+[Repositorio WebApp](https://github.com/Minex-organization/OpalTrace-webapp)
+
+Durante el Sprint, la redacción del informe se realizó de manera conjunta por todo el equipo. La organización del trabajo consistió en asignar capítulos y secciones a cada integrante, quienes incorporaron sus contribuciones mediante commits en subramas que luego se integraron en la rama develop del repositorio. Este enfoque permitió conservar un registro ordenado de las modificaciones y asegurar la trazabilidad de cada aporte.
 
 <div style="page-break-after: always"></div>
 
